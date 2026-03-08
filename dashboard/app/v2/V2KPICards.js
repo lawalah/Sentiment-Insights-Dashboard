@@ -29,8 +29,8 @@ function Sparkline({ data, dataKey, color }) {
 
 export default function V2KPICards({ total, positive, negative, neutral, brandHealth, filtered, hasFilters, timeline, blockerCount, blockerPct }) {
     return (
-        <div className="v2-kpi-grid" style={{ gridTemplateColumns: "repeat(5, 1fr)" }}>
-            <div className="v2-kpi green">
+        <div className="v2-kpi-grid" style={{ gridTemplateColumns: "repeat(6, 1fr)" }}>
+            <div className="v2-kpi">
                 <div className="v2-kpi-top">
                     <span className="v2-kpi-label">Total Mentions</span>
                     <div className="v2-kpi-icon">@</div>
@@ -40,7 +40,7 @@ export default function V2KPICards({ total, positive, negative, neutral, brandHe
                 <div className="v2-kpi-sub">{hasFilters ? `of ${total} total` : "Jan 2023 — Feb 2026"}</div>
             </div>
 
-            <div className="v2-kpi cyan">
+            <div className="v2-kpi green">
                 <div className="v2-kpi-top">
                     <span className="v2-kpi-label">Positive</span>
                     <div className="v2-kpi-icon">+</div>
@@ -48,6 +48,16 @@ export default function V2KPICards({ total, positive, negative, neutral, brandHe
                 <div className="v2-kpi-value">{positive}</div>
                 <Sparkline data={timeline} dataKey="Positive" color="#39FF14" />
                 <div className="v2-kpi-sub">{((positive / total) * 100).toFixed(1)}% of total</div>
+            </div>
+
+            <div className="v2-kpi cyan">
+                <div className="v2-kpi-top">
+                    <span className="v2-kpi-label">Neutral</span>
+                    <div className="v2-kpi-icon">◦</div>
+                </div>
+                <div className="v2-kpi-value">{neutral}</div>
+                <Sparkline data={timeline} dataKey="Neutral" color="#00E5FF" />
+                <div className="v2-kpi-sub">{((neutral / total) * 100).toFixed(1)}% of total</div>
             </div>
 
             <div className="v2-kpi pink">
@@ -72,7 +82,7 @@ export default function V2KPICards({ total, positive, negative, neutral, brandHe
             <div className="v2-kpi" style={{ borderTop: "3px solid #FF4444" }}>
                 <div className="v2-kpi-top">
                     <span className="v2-kpi-label">Blockers</span>
-                    <div className="v2-kpi-icon" style={{ background: "rgba(255,68,68,0.1)", color: "#FF4444" }}>⛔</div>
+                    <div className="v2-kpi-icon">⊘</div>
                 </div>
                 <div className="v2-kpi-value" style={{ color: "#FF4444" }}>{blockerCount}</div>
                 <div className="v2-kpi-sub" style={{ marginTop: 8 }}>
