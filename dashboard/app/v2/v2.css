@@ -225,7 +225,8 @@
 
 .v2-panel .chart-area {
     flex: 1;
-    min-height: 0;
+    min-height: 160px;
+    position: relative;
 }
 
 /* ── V2 Neon Legend ─────────────────────────── */

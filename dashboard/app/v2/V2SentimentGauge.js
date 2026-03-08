@@ -26,12 +26,20 @@ export default function V2SentimentGauge({ counts, selectedSentiments, onToggle 
                     ))}
                 </div>
             </div>
-            <div className="v2-panel">
-                <div style={{ textAlign: "center", marginBottom: 4 }}>
+            <div className="v2-panel" style={{ position: "relative" }}>
+                <div style={{
+                    position: "absolute",
+                    top: "50%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)",
+                    textAlign: "center",
+                    pointerEvents: "none",
+                    zIndex: 0
+                }}>
                     <span style={{ fontSize: 28, fontWeight: 800 }}>{total}</span>
-                    <span style={{ fontSize: 12, color: "#888", marginLeft: 6 }}>tweets</span>
+                    <span style={{ fontSize: 12, color: "#888", display: "block", marginTop: -4 }}>tweets</span>
                 </div>
-                <div className="chart-area">
+                <div className="chart-area" style={{ height: 180 }}>
                     <ResponsiveContainer width="100%" height="100%">
                         <PieChart>
                             <Pie
