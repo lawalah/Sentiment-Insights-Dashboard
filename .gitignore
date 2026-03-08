@@ -1,0 +1,69 @@
+# Default python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+
+# Models & Huggingface Outputs
+model/
+tmp_trainer/
+*.pth
+*.pt
+*.bin
+*.h5
+
+# Large Data files
+*.csv
+*.xlsx
+# But keep the final aggregated data if we want (uncomment if you want to push them)
+# !mae_results.csv
+
+# Dashboard / Next.js
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+dashboard/.env*.local
+dashboard/.vercel
+dashboard/npm-debug.log*
+dashboard/yarn-debug.log*
+dashboard/yarn-error.log*
+dashboard/.pnp
+dashboard/.pnp.js
+
+# Custom Dashboard overrides
+dashboard/public/data.json
+dashboard/public/topics.json
+
+# OS files
+.DS_Store
+dashboard/.DS_Store
