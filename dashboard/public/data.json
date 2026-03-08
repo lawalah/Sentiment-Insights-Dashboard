@@ -1,0 +1,5194 @@
+{
+  "tweets": [
+    {
+      "text": "cant wait to ditch my MAE app boss",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7157,
+      "category": "feature_usability",
+      "date": "2026-02-10",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n \nWhy I can't do any transfer on MAE app? It says that my request is unsuccessful, Reject code 1201.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7892,
+      "category": "transaction_issue",
+      "date": "2026-02-07",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Non-stop improvement\n\nHow long this MAE app last from previous old version???",
+      "sentiment": "Positive",
+      "topic": "MAE App General",
+      "confidence": 0.8012,
+      "category": "general",
+      "date": "2026-01-21",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n any issue with Mae app ke? I can't do the Secure2u approval. Thanks!",
+      "sentiment": "Neutral",
+      "topic": "Secure2U Issues",
+      "confidence": 0.6661,
+      "category": "security_access",
+      "date": "2026-01-16",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Don't take m2u app for granted",
+      "sentiment": "Neutral",
+      "topic": "M2U Migration",
+      "confidence": 0.5498,
+      "category": "general",
+      "date": "2026-01-14",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "The way I immediately activated 'Tabung' in MAE app after finding out BND's going to release a full length album, and a possible concert tour ",
+      "sentiment": "Positive",
+      "topic": "MAE App General",
+      "confidence": 0.5129,
+      "category": "feature_usability",
+      "date": "2026-01-10",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Not me waking up with fever and tryna buy some water then mae app decided \"time to go down\"",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6297,
+      "category": "system_stability",
+      "date": "2026-01-01",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "Is Maybank MAE app down? \n@MyMaybank",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.5531,
+      "category": "system_stability",
+      "date": "2025-12-29",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "@MyMaybank\n is there any issue with MAE app right now? I am not able to do QR payment to orher acct.",
+      "sentiment": "Negative",
+      "topic": "QR Payments",
+      "confidence": 0.6098,
+      "category": "transaction_issue",
+      "date": "2025-12-27",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Props to maybank, sekarang dah boleh manage treatpoints through mae app",
+      "sentiment": "Positive",
+      "topic": "Other",
+      "confidence": 0.8019,
+      "category": "general",
+      "date": "2025-12-22",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n hi maybank, I could not transfer money from mae app, is there an issue?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.5994,
+      "category": "transaction_issue",
+      "date": "2025-12-19",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "if my maybank's mae app implements this shi im gonna riot",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9297,
+      "category": "general",
+      "date": "2025-12-17",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Finally after weeks or months of issue, #Maybank #MAE back to normal now with version 0.9.42.\nA little bit #too #late ..",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.6257,
+      "category": "feature_usability",
+      "date": "2025-12-19",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Wait, so by default. We can acces MAE App overseas?",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.9316,
+      "category": "general",
+      "date": "2025-12-09",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Since when does the mae app scramble the pin keypad? That was a fucking trip, thought i was going insane for a second.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9147,
+      "category": "general",
+      "date": "2025-12-04",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n I am having difficulties with my MAE app. When the app is open, some part of the app is unresponsive and not clickable. Even I can't press approve for Secure Verification. Running on Andro",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7966,
+      "category": "security_access",
+      "date": "2025-12-02",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "@MyMaybank\n is there any issue on MAE app? Unablw to login for a couple of hours. And I received weird email from maybank as well",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6942,
+      "category": "security_access",
+      "date": "2025-11-30",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "most banking (actual banks, not bank wannabe tng) apps also have QR. in fact whenever i use qr pay i just use my maybank mae directly. why would i waste time topping up a 3rd party app?",
+      "sentiment": "Neutral",
+      "topic": "QR Payments",
+      "confidence": 0.6059,
+      "category": "transaction_issue",
+      "date": "2025-12-02",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "is maybank mae down again",
+      "sentiment": "Negative",
+      "topic": "App Frustration",
+      "confidence": 0.6824,
+      "category": "system_stability",
+      "date": "2025-11-30",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "Yes. It's passed the contract period. The guy is asking to change the modem/router and renew the contract. And yes. Not just PSN. My Maybank app won't load sometimes and so does the Celcomdigi app whi",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.5966,
+      "category": "feature_usability",
+      "date": "2025-11-29",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "@MyMaybank\n MAE app cannot be used anymore to pay with QR. It throws error overlay app detected.",
+      "sentiment": "Negative",
+      "topic": "QR Payments",
+      "confidence": 0.7874,
+      "category": "transaction_issue",
+      "date": "2025-11-15",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "saw few ppl @ me to get the answer, so the solution is to turn off the function \"appear on top\" for all apps. i called and they said only need to turn off its function for mae app but it doesn't work ",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.7366,
+      "category": "feature_usability",
+      "date": "2025-11-12",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n Yo maybank, I get this error trying to use your MAE app. Can you at least let users bypass this OEM unlocking thing after the warning (if we get hacked it's on us)? Xiaomi, Redmi and Poco ",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.8326,
+      "category": "feature_usability",
+      "date": "2025-11-11",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "@MyMaybank\n Hi, I can't use the MAE app to approve  any transactions due to notification on saying \"screen overlay detected\" while there are no other apps in the background. Can you please fix this, o",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.724,
+      "category": "transaction_issue",
+      "date": "2025-11-09",
+      "engagement": 7,
+      "isBlocker": true,
+      "impactScore": 3.4
+    },
+    {
+      "text": "Hello \n@MyMaybank\n kindly revert back to allowing screenshots within the MAE app!!!!!!!!!!!!!! Not being able to take screenshots doesn't actually add to any security measures ok!!!!!!!!!\n\nWhat if we ",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.8373,
+      "category": "security_access",
+      "date": "2025-11-03",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "@MyMaybank\n hi, may I know how can I buy gold with maybank app? I couldn’t find the menu. Do I need to register in the nearest branch first? Thank you",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.9005,
+      "category": "feature_usability",
+      "date": "2025-11-05",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "If you some some features are also temporary unavailable., does this applies to tabung also?\nCan you please be specific about the Tabung accounts created inside the Maybank app \n@MyMaybank",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.8408,
+      "category": "feature_usability",
+      "date": "2025-11-05",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "But Maybank app can't let people scan qr when paying",
+      "sentiment": "Negative",
+      "topic": "QR Payments",
+      "confidence": 0.5407,
+      "category": "transaction_issue",
+      "date": "2025-11-04",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "bencinyaaaa dah takleh screenshot mae app....\nany samsung user knows tak any hack?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.5728,
+      "category": "feature_usability",
+      "date": "2025-10-31",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "I found out in X socmed so many Maybank Customer/User complaints cannot Screenshot Transaction Receipt using MAE Maybank app.\n\nOther bank still can. LMAO.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.724,
+      "category": "transaction_issue",
+      "date": "2025-10-29",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@18002096006\n : No one has reachout to me from M2U app. I am still not able to login due to OTP issue.",
+      "sentiment": "Negative",
+      "topic": "Password & Login",
+      "confidence": 0.7935,
+      "category": "security_access",
+      "date": "2025-10-26",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Maybank Mae app now doesn't allow screenshot \nFor me this is inconvenient\nIf you want to share proof of payment through whatsapp, of course you can just share it as pdf\nFor like email reply, there's 2",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6216,
+      "category": "transaction_issue",
+      "date": "2025-10-19",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "@MyMaybank\n,  since when MAE app cannot be used while VPN is active? Before this I have no issues using MAE while VPN is active. Just encounter this today.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6347,
+      "category": "feature_usability",
+      "date": "2025-10-18",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "PSA - If anyone has problems with Maybank MAE app secure2U not available/timing out (like what happened to me all morning), apparently you can just turn it off and on again in the app settings, which ",
+      "sentiment": "Neutral",
+      "topic": "Secure2U Issues",
+      "confidence": 0.73,
+      "category": "security_access",
+      "date": "2025-10-11",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n hi there! I purchased a KLIA EXPRESS ticket on your MAE app. Money deducted but QR code did not generate",
+      "sentiment": "Neutral",
+      "topic": "QR Payments",
+      "confidence": 0.5045,
+      "category": "transaction_issue",
+      "date": "2025-10-02",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "MAE app down? \n@MyMaybank",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6051,
+      "category": "system_stability",
+      "date": "2025-09-30",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "@MyMaybank\n hi\nI have trouble to log in using your MAE app. Could you please check ? Tq",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.5017,
+      "category": "feature_usability",
+      "date": "2025-09-29",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "i also use their qris and transfer macam biasa je using maybank . mae will auto convert",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.9043,
+      "category": "transaction_issue",
+      "date": "2025-09-23",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "iOS26 is officially out today. \n\nI am once again pleading to \n@MyMaybank\n to enable dynamic theming for MAE app for dark mode. Ya'll missing the train here.",
+      "sentiment": "Positive",
+      "topic": "MAE App General",
+      "confidence": 0.4876,
+      "category": "feature_usability",
+      "date": "2025-09-16",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "hahahahaha hoi different maybank app",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.6115,
+      "category": "general",
+      "date": "2025-09-18",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank app is unbeatable because it offers a comprehensive suite of services all under one roof including investments (ASB, AHB, unit trusts), multivarian acc (saving acc,trading acc, multi currency ",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.9225,
+      "category": "feature_usability",
+      "date": "2025-09-18",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "A friend of mine wanna reduce their spending so he made his ipad have the main maybank app so everytime he needs to qr, he takes out his ipad",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7672,
+      "category": "transaction_issue",
+      "date": "2025-09-12",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Not the first time…I remember just last year all Maybank app, cards etc wasn’t working for 2-3 hours on a fine day. Luckily the shop owner gave me credit and let me pay the next day. This can’t be tol",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.808,
+      "category": "general",
+      "date": "2025-09-08",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "man my Maybank app crashed while I was buying food for lunch  so embarrassing",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9346,
+      "category": "feature_usability",
+      "date": "2025-09-08",
+      "engagement": 4,
+      "isBlocker": true,
+      "impactScore": 2.8
+    },
+    {
+      "text": "If you buy gold on the Maybank app 10 years ago today you'd record 280% profit.\n\nSo if you're conservative investor, buy gold. Better returns than properties/assets.",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.7053,
+      "category": "feature_usability",
+      "date": "2025-09-12",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank app is on the fritz? Hmmmm.....",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.6542,
+      "category": "general",
+      "date": "2025-09-08",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "wtf maybank app is down?????",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9084,
+      "category": "system_stability",
+      "date": "2025-09-08",
+      "engagement": 20,
+      "isBlocker": true,
+      "impactScore": 6.0
+    },
+    {
+      "text": "sistem QR m2u app down ke??? \n@MyMaybank",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.5661,
+      "category": "transaction_issue",
+      "date": "2025-09-08",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "Saw a glimpse of a client's MAE app. The balance showed almost RM400K.\n\nImagine having that much of unproductive capital.\n\nThere's diminishing return for therapy effectiveness VS cost.\n\nBut you could ",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.7534,
+      "category": "transaction_issue",
+      "date": "2025-09-06",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "i was amazed by how it works too  i didnt know maybank app can cross currency",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.9294,
+      "category": "feature_usability",
+      "date": "2025-08-26",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MaybankID\n I am not able to login my Maybank app from this morning and now my account also blocked can you please check and help",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.659,
+      "category": "security_access",
+      "date": "2025-07-29",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Hi \n@MyMaybank\n, may i know how to activate overseas spending for cc? Can’t seem to find the setting in MAE app. Thank you.",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.8607,
+      "category": "transaction_issue",
+      "date": "2025-07-18",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Hei. maybank MAE QRpay is not working currently! I did not bring any cash and what a shameful #maybank #MAE #Maybank",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.9329,
+      "category": "transaction_issue",
+      "date": "2025-07-15",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "@MyMaybank\n \nMae app down again\nMaintainence?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6539,
+      "category": "system_stability",
+      "date": "2025-07-09",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "qris maybank app is fine. just standby cash juga just in caseeeee sebab some places required entrance fee and places mcm kintamani, nusa penida still guna cash mostly huhu",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.5543,
+      "category": "transaction_issue",
+      "date": "2025-07-06",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "friends who have been to bali, how did yall make payment for things? Does the QRIS work with maybank app or Wise app? any tips are welcomed!!!",
+      "sentiment": "Neutral",
+      "topic": "QR Payments",
+      "confidence": 0.6623,
+      "category": "transaction_issue",
+      "date": "2025-07-06",
+      "engagement": 5,
+      "isBlocker": false,
+      "impactScore": 1.5
+    },
+    {
+      "text": "@MyMaybank\n why it's take so long u guys do maintenance on mae app",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7753,
+      "category": "general",
+      "date": "2025-07-05",
+      "engagement": 3,
+      "isBlocker": true,
+      "impactScore": 2.6
+    },
+    {
+      "text": "Maybank app is STILL down???",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8521,
+      "category": "system_stability",
+      "date": "2025-07-04",
+      "engagement": 31,
+      "isBlocker": true,
+      "impactScore": 8.2
+    },
+    {
+      "text": "No announcement at all..what happen mae app and website..",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.6466,
+      "category": "general",
+      "date": "2025-06-24",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "hi, the mae app still says some features are temporarily unavailable. so im not sure why u said all resumed when features are unavailable?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7047,
+      "category": "feature_usability",
+      "date": "2025-06-20",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Malaysian telcos tonight upon learning that the problem is with Maybank app, not their network",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.6323,
+      "category": "general",
+      "date": "2025-06-18",
+      "engagement": 16,
+      "isBlocker": false,
+      "impactScore": 2.6
+    },
+    {
+      "text": "Wtf maybank app maintenance at this hour how am I gonna pay",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9058,
+      "category": "general",
+      "date": "2025-06-18",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "nasib ada cash, apa ke gila m2u app down time time camni.",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8433,
+      "category": "system_stability",
+      "date": "2025-06-18",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "Guys i think i need to delete my MAE app cause i cant control myself from buying unnecessary things.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8918,
+      "category": "feature_usability",
+      "date": "2025-06-13",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "I am so upset with #IndahWaterConsortium as they always send wrong message to me with some account number saying that the bill is unpaid. If i’m stupid enough, i will just use MAE app to pay for that ",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.9205,
+      "category": "feature_usability",
+      "date": "2025-06-13",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "As someone who has used:\n\nHSBC\nHLB\nMBB\nUOB\nRHB\n\nHLB is the best for installments. They run 0% campaigns every now & then, and can be easily applied via app. MBB also got, I'd suggest checking out the ",
+      "sentiment": "Positive",
+      "topic": "Other",
+      "confidence": 0.6524,
+      "category": "feature_usability",
+      "date": "2025-06-10",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "I accidentally transferred money to someone who is on my favourite list on MAE app and i do not have this person's contact number anymore. This person was my former housemate when i used to live at Pr",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.5186,
+      "category": "transaction_issue",
+      "date": "2025-06-09",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Paid for an Indonesian artist PO during CF2024 (they got a booth there) using MAE app through their QRIS code. The amount to enter was in IDR so I had to convert MYR to IDR  they confirmed the amount ",
+      "sentiment": "Neutral",
+      "topic": "QR Payments",
+      "confidence": 0.8087,
+      "category": "transaction_issue",
+      "date": "2025-05-27",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "can confirm as a msian I was able to use the MAE (maybank) app to pay using QRIS when I was attending cfxx! wanted to add this since I know some msian testimonies used tng/shopee/other services\nMAE le",
+      "sentiment": "Positive",
+      "topic": "QR Payments",
+      "confidence": 0.5897,
+      "category": "transaction_issue",
+      "date": "2025-05-26",
+      "engagement": 18,
+      "isBlocker": false,
+      "impactScore": 2.8
+    },
+    {
+      "text": "@MyMaybank\n Is there a scheduled maintenance for MAE app currently?",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.9038,
+      "category": "general",
+      "date": "2025-05-14",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "@MyMaybank\n why you have to schedule your maybank app maintenance at the time of online sales at midnight? Want to approve a payment and your secure2u is down. ",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.839,
+      "category": "transaction_issue",
+      "date": "2025-05-04",
+      "engagement": 4,
+      "isBlocker": true,
+      "impactScore": 2.8
+    },
+    {
+      "text": "open that maybank app, u gonna find some",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7133,
+      "category": "general",
+      "date": "2025-04-27",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "can the damn!!!! maybank mae app!!!!!! not send me dumb notifications!!!!!!!!!! if it's not abt ppl giving me money I DONT WANT ITTTTT ANJINKKKK!!!!!!!!!!",
+      "sentiment": "Negative",
+      "topic": "Savings (Tabung)",
+      "confidence": 0.9339,
+      "category": "general",
+      "date": "2025-04-27",
+      "engagement": 8,
+      "isBlocker": false,
+      "impactScore": 1.8
+    },
+    {
+      "text": "@MyMaybank\n mae app is down?",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.7963,
+      "category": "system_stability",
+      "date": "2025-04-16",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Tiap2 bulan buat tabung dlm MAE app utk insurans kereta. By the time due just withdraw to pay the best deal. Stress free",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.6161,
+      "category": "feature_usability",
+      "date": "2025-04-14",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Maybank app ada kill switch",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.5747,
+      "category": "general",
+      "date": "2025-04-05",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Yes I feel the same way. My OP I got mention forex rate mcm sama jer.\n\nHLB rate still the nicest, good thing is no need another card. Pakai existing debit/ATM card je, but that's HLB.\n\nApply online vi",
+      "sentiment": "Positive",
+      "topic": "Other",
+      "confidence": 0.4825,
+      "category": "transaction_issue",
+      "date": "2025-03-25",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "If Maybank offers a Bitcoin savings account that lets you deposit BTC in MAE app and use it to pay DuitNow QR, would you use it?",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.9064,
+      "category": "transaction_issue",
+      "date": "2025-03-08",
+      "engagement": 201,
+      "isBlocker": false,
+      "impactScore": 21.1
+    },
+    {
+      "text": "Nah just send them a money request via MAE app",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.8592,
+      "category": "general",
+      "date": "2025-03-02",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n i wanted to topup my grabpay but unsuccessful? is there any issues with the mae app?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7557,
+      "category": "transaction_issue",
+      "date": "2025-02-28",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "@MyMaybank\n \nIts from your MAE app > Apply > Car Insurance",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.8648,
+      "category": "general",
+      "date": "2025-02-27",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "I still don't get how to manage my finances but according to whatever that maybank app says I'm saving a good portion and it shows but I have no idea how I save, I spend money like an idiot but hey...",
+      "sentiment": "Negative",
+      "topic": "Savings (Tabung)",
+      "confidence": 0.7539,
+      "category": "general",
+      "date": "2025-02-25",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "@MyMaybank\n Hi team nak tanya kenapa tak dapat notification money received walaupun setting tu always ON? Using the latest updated MAE app.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.8455,
+      "category": "general",
+      "date": "2025-02-19",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "mae app is taking up the storage space too much",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.668,
+      "category": "general",
+      "date": "2025-02-17",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "I deadass just opened the McD app instead of the MAE app ",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.6369,
+      "category": "feature_usability",
+      "date": "2025-02-07",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "if anyone knows the front end team for mMaybank's MAE app, pls lemme have a word with them...",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.7712,
+      "category": "general",
+      "date": "2025-01-31",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n is there currently a problem with making placements for FD on the web and MAE app? been trying for 2 days and it says system unavailable",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6731,
+      "category": "general",
+      "date": "2024-12-26",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Happened to me last few months. Sama tak dapat secure notification, but received SMS ada transaction happening to the CC. Straight away blocked the card from MAE app. Call Maybank. Maybank bagi card r",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6278,
+      "category": "transaction_issue",
+      "date": "2024-12-24",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "Yo mae app visa direct is a lifesaver.",
+      "sentiment": "Positive",
+      "topic": "MAE App General",
+      "confidence": 0.957,
+      "category": "general",
+      "date": "2024-12-22",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "I changed phone and with the hassle of redoing all your mobile banking app. \nWill try and list my experience and ease of doing it. \n\n1. Maybank. App recognises a new phone. Migration easy, need to phy",
+      "sentiment": "Positive",
+      "topic": "Phone Migration",
+      "confidence": 0.6331,
+      "category": "feature_usability",
+      "date": "2024-12-22",
+      "engagement": 10,
+      "isBlocker": false,
+      "impactScore": 2.0
+    },
+    {
+      "text": "mae ada problem ke...tak boleh receive payment guna qr if dari acc Maybank,tapi bank lain elok je, duit successful transferred,\n#maybank\n#mae",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7292,
+      "category": "transaction_issue",
+      "date": "2024-12-19",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "The older I get, the only sound I don’t get annoyed at is the MAE app ",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.4826,
+      "category": "general",
+      "date": "2024-12-13",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Is \n@MyMaybank\n's MAE app down for anyone else?",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.5156,
+      "category": "system_stability",
+      "date": "2024-12-13",
+      "engagement": 4,
+      "isBlocker": true,
+      "impactScore": 2.8
+    },
+    {
+      "text": "Maybank app for Secure2u is still not working. It's already 5/12. Should I report this?",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.8454,
+      "category": "security_access",
+      "date": "2024-12-04",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "hi \n@MyMaybank\n, i can't make payment or transfer with mae app",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.5043,
+      "category": "transaction_issue",
+      "date": "2024-11-30",
+      "engagement": 3,
+      "isBlocker": true,
+      "impactScore": 2.6
+    },
+    {
+      "text": "I can't transfer money using MAE app \n@MyMaybank\n. There's no button to click to approve the transaction.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6437,
+      "category": "transaction_issue",
+      "date": "2024-11-30",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "does anyone know how to remove the favorites when transferring in the MAE app? ",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.9154,
+      "category": "transaction_issue",
+      "date": "2024-11-30",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Hehe I guna Maybank App je auto deduct ",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.5183,
+      "category": "transaction_issue",
+      "date": "2024-11-25",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Dont get confused with other Maybank app ye oomfs",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7368,
+      "category": "general",
+      "date": "2024-11-25",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Maybank Mae now doesn't offer instant transfer to other banks. Only Giro available. I hate taht i learn in the hard way. \n@MyMaybank",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9179,
+      "category": "transaction_issue",
+      "date": "2024-11-25",
+      "engagement": 10,
+      "isBlocker": false,
+      "impactScore": 2.0
+    },
+    {
+      "text": "me looking at Mae app like \"why can't you just be normal\" as it screams \"shopee\" at my uncle's funeral",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7695,
+      "category": "general",
+      "date": "2024-11-20",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Hi \n@MyMaybank\n why does my MAE app no longer have biometric login?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.5699,
+      "category": "security_access",
+      "date": "2024-11-15",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n How to transfer MAE app from old phone to new phone ? Do I have to go to the ATM ?\n\nGambar sekadar hiasan.",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.7769,
+      "category": "transaction_issue",
+      "date": "2024-11-13",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Heads up for Android phone user that are using Maybank MAE app, DON'T UPDATE to Android 15 yet since if you do, your Secure2u won't have the Approve/Reject button when doing transaction.",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.5028,
+      "category": "transaction_issue",
+      "date": "2024-11-03",
+      "engagement": 5,
+      "isBlocker": false,
+      "impactScore": 1.5
+    },
+    {
+      "text": "@MyMaybank\n when will you fix the MAE app bug on Google Pixel devices using Android 15? I'm unable to perform any transaction using the app/maybank2u since 19 October.",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.8125,
+      "category": "transaction_issue",
+      "date": "2024-10-29",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@HotlinkListens\n hi, my app is troubled so i topped up from Maybank MAE but it seems the credit didnt get in? Would you pleasd help to check? Thanks!",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.5778,
+      "category": "feature_usability",
+      "date": "2024-11-02",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "ok i have questiyon about this, i ada 3 acc maybank, mae, conventional & islamic, if anything happen to one of it nnt effected tak lain lain. i mcm overthink. haha",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.5658,
+      "category": "general",
+      "date": "2024-10-26",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n please do something with your Mae app cause I look like an idiot trying to pay using QR while your app keep crashing ",
+      "sentiment": "Negative",
+      "topic": "QR Payments",
+      "confidence": 0.906,
+      "category": "transaction_issue",
+      "date": "2024-10-13",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "@MyMaybank\n  is MAE app down today? whyvit is not loading?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7784,
+      "category": "system_stability",
+      "date": "2024-10-07",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "yeah, as long as not maybank app",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7041,
+      "category": "general",
+      "date": "2024-10-06",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Hi \n@MyMaybank\n the MAE app sucks major ass just letting you know and every time I try to use secure2u the app crashes at least 10 times. By the time the app finally opens, the timer has run out. The ",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.921,
+      "category": "security_access",
+      "date": "2024-09-27",
+      "engagement": 8,
+      "isBlocker": false,
+      "impactScore": 1.8
+    },
+    {
+      "text": "Until you reach the limit for that month and it's not even the end of the month and you cannot change your transfer limit using MAE App.\n\nKena pegi bank jugak. \n\nNow that's one shitty app.",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.897,
+      "category": "transaction_issue",
+      "date": "2024-09-24",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "and MAE app so much faster than other apps",
+      "sentiment": "Positive",
+      "topic": "MAE App General",
+      "confidence": 0.9366,
+      "category": "general",
+      "date": "2024-09-23",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n \nMAE app error again! \nCan't even login!",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8678,
+      "category": "security_access",
+      "date": "2024-09-20",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "MAE app got. Or jst use ATM machine",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.8658,
+      "category": "general_service",
+      "date": "2024-09-20",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n mae app is on loading forever can't open the app, any idea why?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7303,
+      "category": "system_stability",
+      "date": "2024-09-19",
+      "engagement": 6,
+      "isBlocker": true,
+      "impactScore": 3.2
+    },
+    {
+      "text": "the way aku downloaded maybank app bcs of the same purpose",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.87,
+      "category": "system_stability",
+      "date": "2024-09-16",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Look! I found \n@KevlinHenney\n 's \n@freemarker\n in \n@MyMaybank\n m2u app ",
+      "sentiment": "Positive",
+      "topic": "Other",
+      "confidence": 0.6093,
+      "category": "general",
+      "date": "2024-09-08",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "@MyMaybank\n I just experienced not being able to use my MAE app to pay using QR at a restaurant, which was embarrassing to say the least",
+      "sentiment": "Negative",
+      "topic": "QR Payments",
+      "confidence": 0.8834,
+      "category": "transaction_issue",
+      "date": "2024-09-03",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n why is it that I cannot transfer money from my own account to my own asnb??? Multiple tries already geram pula. On mae app pun xblh, buka maybank2u pun xblh.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7862,
+      "category": "transaction_issue",
+      "date": "2024-08-26",
+      "engagement": 4,
+      "isBlocker": true,
+      "impactScore": 2.8
+    },
+    {
+      "text": "Nak topup grabpay wallet via grab app. \nSo dari grab app direct to maybank mae app approved transaction back to app nampak windows maybank yang bukak via grab app expired.\n\nStatus on maybank - dah tol",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.5362,
+      "category": "transaction_issue",
+      "date": "2024-08-21",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "I think it happened again today though? I wasn’t able to open my MAE app just now",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6031,
+      "category": "general",
+      "date": "2024-08-14",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Steps to Link Your ASNB Account to the MAE App \nyoutu.be/5w1mGpGwm5E?si\n… via \n@YouTube",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.9087,
+      "category": "general",
+      "date": "2024-08-14",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank rolling out malware detection feature to MAE app",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8454,
+      "category": "feature_usability",
+      "date": "2024-08-13",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Here I was thinking that CIMB sucks. But seriously what the fuck is this MAE app? I don’t need icons. I need you to standardise how you refer to your settings and products.",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.9435,
+      "category": "general",
+      "date": "2024-08-13",
+      "engagement": 7,
+      "isBlocker": false,
+      "impactScore": 1.7
+    },
+    {
+      "text": "Maybank app sends me more notification than most men do",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.6274,
+      "category": "general",
+      "date": "2024-08-08",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "May I know why Mae app keep on loading while log in ?",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.6857,
+      "category": "system_stability",
+      "date": "2024-08-01",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Not my Maybank app ask me to start saving up for 2NE1 comeback concert to any of their world tour desination knowing that the possibility they come here is non existent...",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.6169,
+      "category": "feature_usability",
+      "date": "2024-07-30",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "I was thinking the same thing too! Or maybe the person who worked for MAE app copywriting is a Blackjack ",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.7926,
+      "category": "general",
+      "date": "2024-07-27",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "not mae app reminding me to save up for 2ne1 concert??",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.5752,
+      "category": "general",
+      "date": "2024-07-27",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "@MyMaybank\n what happen? I only can transfer using giro on MAE app. What happen to the instant transfer or duit now?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.5092,
+      "category": "transaction_issue",
+      "date": "2024-07-26",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Senang ja step dia. \n1. Pergi ke setting on your front page\n2. Tap switch\n3. Tap ‘+ link M2U Access’ dekat bawah\n4. Tap ‘link now’ and login second account. \n\nBoleh switch acc bila guna MAE app for pa",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.879,
+      "category": "transaction_issue",
+      "date": "2024-07-26",
+      "engagement": 8,
+      "isBlocker": false,
+      "impactScore": 1.8
+    },
+    {
+      "text": "Anyone have bought Motor Takaful from MAE app? How does it work? I didnt receive any email after payment is being made",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.6692,
+      "category": "transaction_issue",
+      "date": "2024-07-07",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Sometimes I transfer money from Maybank app to TNG and act like I suddenly got free money",
+      "sentiment": "Neutral",
+      "topic": "Phone Migration",
+      "confidence": 0.6248,
+      "category": "transaction_issue",
+      "date": "2024-07-11",
+      "engagement": 6,
+      "isBlocker": false,
+      "impactScore": 1.6
+    },
+    {
+      "text": "@MYHongLeong\n please fix your qr pay on your apps, slow to load, always hang during payment. Please learn from maybank mae apps. Seamless qr payment, almost zero waiting time.",
+      "sentiment": "Negative",
+      "topic": "QR Payments",
+      "confidence": 0.7823,
+      "category": "transaction_issue",
+      "date": "2024-07-11",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "MAE app has just been giving me problems nonstop, I've made so many MAE-related trips to your branch since MAE was forced upon your users.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9311,
+      "category": "general_service",
+      "date": "2024-07-04",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "OCTO to Cimb Click is like MAE is to M2U app. Personally I think it's an improvement. I enjoy the latest apps.",
+      "sentiment": "Positive",
+      "topic": "M2U Migration",
+      "confidence": 0.9499,
+      "category": "general",
+      "date": "2024-06-30",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Oh...don't you use the MAE app for that? :0 it has duitnow transfer built in",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.8244,
+      "category": "transaction_issue",
+      "date": "2024-06-26",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "The ka-ching sound from mae app ",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.9231,
+      "category": "general",
+      "date": "2024-06-25",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "MAE app dah boleh guna dua account. Personal and sme account on the same device. Noice.",
+      "sentiment": "Positive",
+      "topic": "Other",
+      "confidence": 0.9375,
+      "category": "general",
+      "date": "2024-06-14",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Please ensure your MAE app functioning properly without any disruption. Maybank2U app was really good.",
+      "sentiment": "Positive",
+      "topic": "MAE App General",
+      "confidence": 0.9327,
+      "category": "feature_usability",
+      "date": "2024-06-13",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Why is my MAE app keeps crashing? \n@MyMaybank",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8204,
+      "category": "system_stability",
+      "date": "2024-06-12",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Checking my expenses on Maybank app only to realise that I spend ALOT!!! Godddd. Why the fuck do I spend so much???? ",
+      "sentiment": "Negative",
+      "topic": "Savings (Tabung)",
+      "confidence": 0.9104,
+      "category": "feature_usability",
+      "date": "2024-05-30",
+      "engagement": 7,
+      "isBlocker": false,
+      "impactScore": 1.7
+    },
+    {
+      "text": "yk what at this point maybank mae app is equivalent to mnet+ cause both of them pissed always pissed the shit out of me",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.947,
+      "category": "feature_usability",
+      "date": "2024-05-24",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "It's the Maybank MAE for me but it's actually nothing between ME",
+      "sentiment": "Neutral",
+      "topic": "App Frustration",
+      "confidence": 0.7174,
+      "category": "general",
+      "date": "2024-05-24",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "#Maybank MAE down! Again! ",
+      "sentiment": "Negative",
+      "topic": "App Frustration",
+      "confidence": 0.8875,
+      "category": "system_stability",
+      "date": "2024-05-23",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "Fuck..maybank mae is down againn",
+      "sentiment": "Negative",
+      "topic": "App Frustration",
+      "confidence": 0.9475,
+      "category": "system_stability",
+      "date": "2024-05-23",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "Patut Maybank App down lately, get well soon",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.6243,
+      "category": "system_stability",
+      "date": "2024-05-17",
+      "engagement": 16,
+      "isBlocker": true,
+      "impactScore": 5.2
+    },
+    {
+      "text": "who knows how to navigate the Maybank app how tf does one enable recurring fund transfers pls let me know",
+      "sentiment": "Negative",
+      "topic": "Phone Migration",
+      "confidence": 0.7727,
+      "category": "transaction_issue",
+      "date": "2024-05-16",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank app can access thai PromptPay",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8395,
+      "category": "security_access",
+      "date": "2024-05-13",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "THE MAYBANK APP ON AN IPAD IS CRAZY \nx.com/whathellsure/s\n…",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8584,
+      "category": "general",
+      "date": "2024-05-12",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "what tye fuck maybank/mae still down at this time. macibai",
+      "sentiment": "Negative",
+      "topic": "App Frustration",
+      "confidence": 0.9447,
+      "category": "system_stability",
+      "date": "2024-05-18",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "Hallooo \n@MyMaybank\n your MAE app can’t perform any transactions or view Tabungs… should we start worrying now??",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8015,
+      "category": "transaction_issue",
+      "date": "2024-05-11",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "I think we are still facing problems in MAE app. As the Tabung part is not displaying at all ",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7905,
+      "category": "feature_usability",
+      "date": "2024-05-11",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "MAE app still cannot work ",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8099,
+      "category": "general",
+      "date": "2024-05-11",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "@MyMaybank\n I’ve been unable to log in to the MAE app for the past half hour.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6869,
+      "category": "general",
+      "date": "2024-05-10",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "@MyMaybank\n whats up with your Mae app? It’s unusable right now.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.931,
+      "category": "general",
+      "date": "2024-05-10",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "Can someone check on the MAE app. Asyik down je dia ",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.5677,
+      "category": "feature_usability",
+      "date": "2024-05-10",
+      "engagement": 149,
+      "isBlocker": true,
+      "impactScore": 31.8
+    },
+    {
+      "text": "@MyMaybank\n I need to pay for dinner. Fucking ensure your MAE app works la! Pahal lama sangat nak okay?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9027,
+      "category": "general",
+      "date": "2024-05-10",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Soon, we might see customer able to buy Bitcoin via Maybank app, just like buying Gold.",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.6467,
+      "category": "feature_usability",
+      "date": "2024-05-11",
+      "engagement": 12,
+      "isBlocker": false,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Deyh, Maybank app down ke? ",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7325,
+      "category": "system_stability",
+      "date": "2024-05-10",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Maybank mae tabung is missing ",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.6463,
+      "category": "feature_usability",
+      "date": "2024-05-11",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "i have three banks but i can say i like maybank mae the best ahaha",
+      "sentiment": "Positive",
+      "topic": "App Frustration",
+      "confidence": 0.9758,
+      "category": "general",
+      "date": "2024-05-10",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "It's fkn Friday and ofc Maybank MAE decided NOT TO WORK among all days wtf?",
+      "sentiment": "Negative",
+      "topic": "App Frustration",
+      "confidence": 0.9383,
+      "category": "general",
+      "date": "2024-05-10",
+      "engagement": 16,
+      "isBlocker": false,
+      "impactScore": 2.6
+    },
+    {
+      "text": "@MyMaybank\n  why Maybank Mae app error!",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.7118,
+      "category": "system_stability",
+      "date": "2024-05-10",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "I use RHB online banking and it’s app coz salary masuk situ. Layout is nice. Navigation is good and easy but it is a bit laggy when you load and sign in, compared to Maybank/ MAE.",
+      "sentiment": "Positive",
+      "topic": "Other",
+      "confidence": 0.7109,
+      "category": "system_stability",
+      "date": "2024-05-05",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Yes… everything interconnected. The only thing they can do now is make a new MAE app… but the old M2U (with the old login) still functions.",
+      "sentiment": "Neutral",
+      "topic": "M2U Migration",
+      "confidence": 0.8387,
+      "category": "security_access",
+      "date": "2024-05-03",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "Why are you not using the MAE app?",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.7071,
+      "category": "general",
+      "date": "2024-05-02",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "wait so is the maybank app banned in Malaysia????",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.5314,
+      "category": "general",
+      "date": "2024-04-21",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "cimb octo ni macam maybank MAE eh. anyone can confirm this?",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.9471,
+      "category": "general",
+      "date": "2024-04-25",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "ohh dekat phone/maybank app dia xleh check ehh?",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8743,
+      "category": "feature_usability",
+      "date": "2024-04-06",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Last night, I went to Metro's uptown bcs I wanted to buy the perfume that I've been planning to buy since last week. I was confident that I could do online transfer to pay for it, but the Maybank app ",
+      "sentiment": "Neutral",
+      "topic": "Phone Migration",
+      "confidence": 0.6419,
+      "category": "transaction_issue",
+      "date": "2024-04-06",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Yessir all maybank app are down",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8113,
+      "category": "feature_usability",
+      "date": "2024-04-05",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "yesterday i was dealing at the bank and there was a chinese aunt next to me who was also dealing and i accidentally noticed that she had savings on the Maybank app that she had rm350k yall like auntyy",
+      "sentiment": "Neutral",
+      "topic": "Savings (Tabung)",
+      "confidence": 0.7927,
+      "category": "general",
+      "date": "2024-04-01",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "wait, ni MAE ke Maybank app?",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.9463,
+      "category": "general",
+      "date": "2024-03-31",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Since tue swith over to MAE i also faced this problem before. Before that all was superb. Cut off MAE dear Maybank. MAE is not Maybank and they just want to suck Maybank customers money and cause alot",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8548,
+      "category": "general",
+      "date": "2024-04-06",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Maybank MAE orait tak orait???",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8227,
+      "category": "general",
+      "date": "2024-04-05",
+      "engagement": 8,
+      "isBlocker": false,
+      "impactScore": 1.8
+    },
+    {
+      "text": "mae app bae  for maybank users highly rec the tabung bc auto deduct",
+      "sentiment": "Positive",
+      "topic": "Other",
+      "confidence": 0.8741,
+      "category": "transaction_issue",
+      "date": "2024-03-24",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Loll..it's a feature maybank app..but its only for malaysians i think",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.865,
+      "category": "feature_usability",
+      "date": "2024-03-24",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "why is the maybank app not working…",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8224,
+      "category": "general",
+      "date": "2024-03-23",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "what is wrong with the maybank app its been two days like this ",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9385,
+      "category": "general",
+      "date": "2024-03-20",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "back to campus so time to download the maybank app again ",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7543,
+      "category": "system_stability",
+      "date": "2024-03-10",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank mae app allows paste. So you mean security wise cimb better?",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7371,
+      "category": "security_access",
+      "date": "2024-03-14",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n I called ur cs to report lost card but then ur branch teller tell me that my id for maybank2u also got cancel. I still have my phone, can access to mae app. Now i can't make any transactio",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7831,
+      "category": "transaction_issue",
+      "date": "2024-03-01",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n why i cant make transaction using my mae app",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.5563,
+      "category": "transaction_issue",
+      "date": "2024-03-01",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Do you still have access to the MAE app in the old phone?",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.9472,
+      "category": "security_access",
+      "date": "2024-03-01",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "hi, i already linked tabung haji number at atm, when can i see TH account at mae app?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.9512,
+      "category": "feature_usability",
+      "date": "2024-02-25",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Now that you can withdraw money through maybank app without using your bank card really means your phone is the most important thing to lose. Wild",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.5591,
+      "category": "general",
+      "date": "2024-02-27",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "default picture in maybank app",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8082,
+      "category": "general",
+      "date": "2024-02-22",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "So if I would like to renew my monthly pass via Maybank MAE apps at 10.15pm is it it possible? As I went to 2 stations before 10.30pm and were told that they were offline. Or was it due to the staff h",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.9183,
+      "category": "feature_usability",
+      "date": "2024-02-18",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n Hi, can I pay full settlement of my car loan via MAE app? Previously I have called Auto Hire to confirm the amount left for the settlement and they mention I can pay via MAE app. I'd like ",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.8024,
+      "category": "general",
+      "date": "2024-02-16",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Warning : Scam Alert  \n\nI have been receiving unknown requests for money via \n@MyMaybank\n MAE app from a possible scammer and unknown user. \n\nUnfortunately, there is no way for any users on MAE app to",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.8333,
+      "category": "feature_usability",
+      "date": "2024-02-12",
+      "engagement": 24,
+      "isBlocker": false,
+      "impactScore": 3.4
+    },
+    {
+      "text": "Changes phone.\n\nRegisters new phone for Maybank app.\n\nTold by app to call bank to verify new phone.\n\nTold cannot do it over the phone.\n\nNeed to go to bank to do it anyway.\n\nThanks for tossing me aroun",
+      "sentiment": "Neutral",
+      "topic": "Phone Migration",
+      "confidence": 0.5786,
+      "category": "feature_usability",
+      "date": "2024-02-15",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Hi \n@MyMaybank\n why my tabung all zero ya in my MAE app? Is it a glitch? ",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.5277,
+      "category": "feature_usability",
+      "date": "2024-02-09",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Hi \n@MyMaybank\n I have issues with transferring funds via Online Banking (browser) and MAE App. Both gave me this error code 00E4. Both my browser and app are updated. What could be the issue? Thanks.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6435,
+      "category": "transaction_issue",
+      "date": "2024-02-08",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "After bidding it reached 53k. And my loan balance is not according to MAE app at 53k. It is actually 48k due to less interest being served. I got almost 4k from the deal.\n\nSo guys, 20% deposit on Hond",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.5355,
+      "category": "transaction_issue",
+      "date": "2024-02-05",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Boleh block your card from the MAE app. Then esok gi bank report/ask for new card",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.7398,
+      "category": "general",
+      "date": "2024-02-04",
+      "engagement": 130,
+      "isBlocker": false,
+      "impactScore": 14.0
+    },
+    {
+      "text": "is the mae app down bc i need to pay someone rn its not funny anymore",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.9036,
+      "category": "system_stability",
+      "date": "2024-01-13",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "Is MAE Maybank app a full proof, 100% secure app to save guard customer's funds? Or was it launched to satisfy someone's KPI?  \n@MyMaybank\n @GobindSinghDeo\n @fmtoday\n @staronline\n @DNewsAsia\n @MCMC_RA",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.848,
+      "category": "general_service",
+      "date": "2024-01-04",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Stupid Maybank app..\nStupid MAe app\n@MyMaybank\n \n\nWanted to pay bill but keep communication error",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.8538,
+      "category": "system_stability",
+      "date": "2023-12-29",
+      "engagement": 5,
+      "isBlocker": true,
+      "impactScore": 3.0
+    },
+    {
+      "text": "I'm confused. Why did you ask me to check Maybank app? ",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.527,
+      "category": "feature_usability",
+      "date": "2023-12-13",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "A bank that is used by all level of people made an app that's prioritize the rich then centralized everything to said app.\n#maybank #mae",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.7365,
+      "category": "general",
+      "date": "2023-12-05",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Today still having error [00E4] with Maybank2u website & MAE App! Any idea when service will fully restore? Thanks",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.7827,
+      "category": "system_stability",
+      "date": "2023-12-02",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "@MyMaybank\n is there an issue with Maybank now? I keep getting Error [00e4] for transfer to UOB both in Maybenk website & MAE app. thanks.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.652,
+      "category": "transaction_issue",
+      "date": "2023-12-01",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "How do I turn off Maybank's MAE app punya promo notifications ni? Annoying nak mati sial.",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.8701,
+      "category": "general",
+      "date": "2023-12-01",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Hlb is fine for me  but finally resolve my problem with the maybank app",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.5061,
+      "category": "general",
+      "date": "2023-12-02",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank app is by far the worst banking app I used…",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9507,
+      "category": "general",
+      "date": "2023-12-01",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "After they close down M2U app.. wbk",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.5264,
+      "category": "system_stability",
+      "date": "2023-11-28",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "@MyMaybank\n \n\nhello. Maybank MAE down again today (1 Dec 2023) 9.12am. Please revert back to TAC. Very troublesome with MAE as not stable.",
+      "sentiment": "Negative",
+      "topic": "App Frustration",
+      "confidence": 0.8664,
+      "category": "security_access",
+      "date": "2023-12-01",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "Can try maybank MAE. If your salary is credited there, you can just apply through it.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.8813,
+      "category": "general",
+      "date": "2023-11-28",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "I've got three Maybank accounts on the same MAE app on one device and ATM card.\n\nWhat's really the problem?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.6561,
+      "category": "general_service",
+      "date": "2023-11-15",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "just knew we can order food from maybank app\n\n“beli spaghetti dari maybank” sounds funny though",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.6067,
+      "category": "general",
+      "date": "2023-11-12",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "I have personal account and company current account. I don't have 2 phones. So how? Don't suggest me to install it on other phone or logout my savings  account from MAE app.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.5877,
+      "category": "general",
+      "date": "2023-11-09",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "#Dedollarizing continues. The Maybank MAE app can now be used for transactions in China bypassing Visa and MasterCard. \n@Kathleen_Tyson_",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7388,
+      "category": "transaction_issue",
+      "date": "2023-11-08",
+      "engagement": 5,
+      "isBlocker": false,
+      "impactScore": 1.5
+    },
+    {
+      "text": "i use Bigpay untuk any transaction sebab senang nak track kat situ if you don’t have that maybank app",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8367,
+      "category": "transaction_issue",
+      "date": "2023-11-09",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "@MyMaybank\n MAE app QR got problem",
+      "sentiment": "Negative",
+      "topic": "QR Payments",
+      "confidence": 0.6007,
+      "category": "transaction_issue",
+      "date": "2023-11-04",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "So since maybank announced that any transaction needs to go through MAE apps and secure2u, what if the phone is unable to download the MAE app itself? Buy a new phone just so to be able to access MAE ",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.7931,
+      "category": "transaction_issue",
+      "date": "2023-11-03",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n I purchase top up through maybank app online and until this very day I never received the top up and the said amount has been deducted from my account. I try doing the same again but this ",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.5363,
+      "category": "transaction_issue",
+      "date": "2023-10-29",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "i could hear my MAE app CHEER",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.4401,
+      "category": "general",
+      "date": "2023-10-27",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n hi maybank! I cannot log in into my mae app since yesterday. I already update, uninstall and install still nothing. It just shows this screen. I can log in to maybank2u though. Can I know ",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7235,
+      "category": "general",
+      "date": "2023-10-22",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "I just knew that we can withdraw our money by just scanning the QR at the ATM machine using MAE app???",
+      "sentiment": "Neutral",
+      "topic": "QR Payments",
+      "confidence": 0.8273,
+      "category": "transaction_issue",
+      "date": "2023-10-22",
+      "engagement": 27,
+      "isBlocker": false,
+      "impactScore": 3.7
+    },
+    {
+      "text": "Maybank app ada problem ke?",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.658,
+      "category": "general",
+      "date": "2023-10-22",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Find this a big hassle especially while changing devices on a regular basis. Is this necessary \n@alphaque\n?\n\nMaybank: Got a new phone? You can only activate Secure2u via ATM from 31 October",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.5788,
+      "category": "security_access",
+      "date": "2023-10-28",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Maybank oh Maybank\nMAE oh MAE",
+      "sentiment": "Neutral",
+      "topic": "App Frustration",
+      "confidence": 0.576,
+      "category": "general",
+      "date": "2023-10-28",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Anyone else having issues with the Mae app \n@MyMaybank",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.6584,
+      "category": "feature_usability",
+      "date": "2023-10-11",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "i use the M@ybank MAE app! you can choose to either automatically deduct from your acc every month or transfer manually without a limit",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.7651,
+      "category": "transaction_issue",
+      "date": "2023-10-06",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "This tabung maybank app really help me in doing quiet saving. Who knows in 2 months I can save rm1000 ",
+      "sentiment": "Positive",
+      "topic": "Savings (Tabung)",
+      "confidence": 0.9362,
+      "category": "feature_usability",
+      "date": "2023-10-06",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Oh ya, forgot to mention. Don't ask me to use other phone and download MAE app. It's really a stupid solution.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9087,
+      "category": "system_stability",
+      "date": "2023-09-28",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n fix your Mae app! It cannot detect the password or pin. When my mother tried to reset, prompt about communication error. Then prompted invalid ID, asking us to go to branch. Why are u abus",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.922,
+      "category": "security_access",
+      "date": "2023-09-27",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "its the maybank mae app! so if u have an acc under maybank, it just links everything to your tabung and vice versa",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.8706,
+      "category": "feature_usability",
+      "date": "2023-09-26",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "Whats the purpose of having the new MAE app while most of us are still dependant on the old app for the approval of payment for online payments? Why do we need both apps to cross exchange approval? \n@",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.5251,
+      "category": "transaction_issue",
+      "date": "2023-09-26",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Pay via maybank app or tng or what?",
+      "sentiment": "Neutral",
+      "topic": "Phone Migration",
+      "confidence": 0.9145,
+      "category": "general",
+      "date": "2023-09-28",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Itula, maybank app adooooo",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7597,
+      "category": "general",
+      "date": "2023-09-27",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "If you use maybank you can just use the maybank app to track your expenses, i’m not sure bout other apps but there are a few but you have to put your expenses manually hm",
+      "sentiment": "Neutral",
+      "topic": "Savings (Tabung)",
+      "confidence": 0.9156,
+      "category": "general",
+      "date": "2023-09-24",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "how do i delete old favourited accounts on maybank/mae app",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.7951,
+      "category": "general",
+      "date": "2023-09-16",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n mae app cant login, stuck at the loading page, reinstall the whole app still the same...",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7999,
+      "category": "security_access",
+      "date": "2023-09-11",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "thats weird. mine comes from MAE also. mungkin sbb aku dah uninstall M2U app totally?",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.7493,
+      "category": "general",
+      "date": "2023-09-13",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "i literally thought i was the only one having trouble w the maybank app  but ok everyone is too",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.7027,
+      "category": "general",
+      "date": "2023-09-08",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "i hate it when my maybank app has its noti pop up like girl i thought someone gives me money",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9274,
+      "category": "general",
+      "date": "2023-09-07",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n I had tweeted this before. Why does MAE or maybank app keep asking to reset password. I thought I settled this matter after calling helpline, and it was ok until this month. Before logging",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6482,
+      "category": "security_access",
+      "date": "2023-09-06",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "It happenes to many people, not a single case.... may be have to do with the uninstall of the old m2u app, need to unlink and deregister device 1st and install the new mae app?",
+      "sentiment": "Neutral",
+      "topic": "M2U Migration",
+      "confidence": 0.5172,
+      "category": "general",
+      "date": "2023-09-03",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Guys yang dah download CIMB Octo . Sama macam maybank mae ke ? Anyone ?",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.9055,
+      "category": "system_stability",
+      "date": "2023-08-28",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank MAE app be like sending you notifications that you just spent this much on such a useless thing and you need to have some self-control.",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9168,
+      "category": "feature_usability",
+      "date": "2023-08-28",
+      "engagement": 9,
+      "isBlocker": false,
+      "impactScore": 1.9
+    },
+    {
+      "text": "Aiyya you managed to do it ke? Did it manually? Sebab from MAE app > add card > only VISA cards appear for me",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.8962,
+      "category": "general",
+      "date": "2023-08-20",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "irl moots are so holy, until i heard that forbidden “maybank” app notification on her phone ",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.424,
+      "category": "general",
+      "date": "2023-08-24",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "If you’re a maybank user you can download the statement from MAE app.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.9107,
+      "category": "system_stability",
+      "date": "2023-08-17",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "The mae app always down, if in epl, will be in non league already because always down",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9274,
+      "category": "system_stability",
+      "date": "2023-08-17",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "Crazy to see Maybank CEO gets paid RM9 million per year (around RM750k per month) yet MAE app is still shit!",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.9064,
+      "category": "general",
+      "date": "2023-08-11",
+      "engagement": 5,
+      "isBlocker": false,
+      "impactScore": 1.5
+    },
+    {
+      "text": "Something wrong with MAE app? My Discord nitro subscription doesn't go thru eh",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8016,
+      "category": "general",
+      "date": "2023-08-11",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Lina from Amanz is so cheeky to take a photo from her Maybank app & use it as media ",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.514,
+      "category": "general",
+      "date": "2023-08-07",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Agreeeeeed. Wish maybank can bring back the simple n useful maybank app. Rasa discourage nak guna betul mae ni sbb susah",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.6794,
+      "category": "general",
+      "date": "2023-08-07",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n Hi I can't log into Mae or Maybank app.\n\nTo make it worse, even the web banking is unavailable. This is not small issue..",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.8123,
+      "category": "feature_usability",
+      "date": "2023-08-07",
+      "engagement": 5,
+      "isBlocker": true,
+      "impactScore": 3.0
+    },
+    {
+      "text": "Should just stick with M2U app. MAE is a total failure ",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.9114,
+      "category": "general",
+      "date": "2023-08-07",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "Shifting forcedfully from M2U app to MAE ni benda paling fucktard la dlm 2023.",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8986,
+      "category": "general",
+      "date": "2023-08-07",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "I still can’t use my maybank MAE acc to transfer/topup.",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.7207,
+      "category": "transaction_issue",
+      "date": "2023-08-10",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Maybank MAE apps are so annoying. Keep pushing ads",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9397,
+      "category": "general",
+      "date": "2023-08-07",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Honestly MAE app sucks and it’s confusing ",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9521,
+      "category": "general",
+      "date": "2023-08-03",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "If I need to use MAE app to transfer to other account, then what's the purpose maybank2u app?? Does the app become obsolete?",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.531,
+      "category": "transaction_issue",
+      "date": "2023-08-01",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "Cant even transfer using m2u. Whats the point of that app then? The mae app is so trash",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.9397,
+      "category": "transaction_issue",
+      "date": "2023-08-01",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "maybank MAE be screaming when you receive money bitch shut the fuck up im gonna get robbed",
+      "sentiment": "Negative",
+      "topic": "App Frustration",
+      "confidence": 0.9391,
+      "category": "general",
+      "date": "2023-08-02",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Istg mae app is sooooo annoying",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9358,
+      "category": "general",
+      "date": "2023-07-26",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n Please bring everything back to Maybank2u I wanna do all my transactions thereeeee (I'm being pathetic because my phone tak dapat support MAE app so yeah)",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.3392,
+      "category": "transaction_issue",
+      "date": "2023-07-25",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "I didnt expect the mae app will be so perfect but at least this shouldnt appear. Some people are not tech savvy nor that eager to know why. This kind of issue affecting both user and internal team. Sa",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8826,
+      "category": "feature_usability",
+      "date": "2023-07-25",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n fix your damn MAE app if you want us to move from Maybank2u ",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8641,
+      "category": "general",
+      "date": "2023-07-25",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Tak masa transfer through the MAE app itself.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.9077,
+      "category": "transaction_issue",
+      "date": "2023-07-24",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Anybody else having issues with their MAE wallet? \n\nEpah & I experienced the same problem - we topped up through the MAE app, money was deducted from savings account, but wasn’t transferred to the MAE",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.6074,
+      "category": "transaction_issue",
+      "date": "2023-07-24",
+      "engagement": 8,
+      "isBlocker": false,
+      "impactScore": 1.8
+    },
+    {
+      "text": "dei what’s wrong with the maybank app these days damn cb right",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9276,
+      "category": "general",
+      "date": "2023-07-28",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "What’s wrong with Maybank app. can’t even transfer funds #maybank ",
+      "sentiment": "Negative",
+      "topic": "Phone Migration",
+      "confidence": 0.9262,
+      "category": "transaction_issue",
+      "date": "2023-07-28",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "yes i ada 3 account. \n\nSavings, currents, business. \n\nTapi MAE is just for 1 acc, not like maybank app. \n\nAnnoying tau",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.5466,
+      "category": "feature_usability",
+      "date": "2023-07-25",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "The maybank app i think is the most simplest, fastest, most responsive and easiest to use by far, so the move to change key feature to the hard, laggy, difficult to navigate MAE is a very bad move. Sh",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.6658,
+      "category": "feature_usability",
+      "date": "2023-07-24",
+      "engagement": 8,
+      "isBlocker": false,
+      "impactScore": 1.8
+    },
+    {
+      "text": "can’t even log in on m2u app",
+      "sentiment": "Negative",
+      "topic": "Password & Login",
+      "confidence": 0.504,
+      "category": "general",
+      "date": "2023-07-28",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "This entire forced migration of M2U to MAE app is a whole new level of annoying.  Can’t QR pay or fund trsf on the M2U app. And I can list down all the things I hate about MAE app. Too much gamificati",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.9303,
+      "category": "transaction_issue",
+      "date": "2023-07-27",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Yesterday M2U app is down with maintenance ",
+      "sentiment": "Negative",
+      "topic": "Password & Login",
+      "confidence": 0.7002,
+      "category": "system_stability",
+      "date": "2023-07-26",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Liar! I can't even log into my MAE! And now you have deactivated the old M2U app I can't even do any transfer! Countless calls visits and emails and MBB still cannot resolve this matter! Seriously wor",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.9491,
+      "category": "transaction_issue",
+      "date": "2023-07-26",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "I would prefer the previous M2U app compare to MAE..",
+      "sentiment": "Neutral",
+      "topic": "M2U Migration",
+      "confidence": 0.78,
+      "category": "general",
+      "date": "2023-07-25",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "We can’t transfer money through M2U app now?? I hate MAE! It’s so annoying to use. Ugh! ",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.9597,
+      "category": "transaction_issue",
+      "date": "2023-07-25",
+      "engagement": 5,
+      "isBlocker": false,
+      "impactScore": 1.5
+    },
+    {
+      "text": "#MAE cannot use, loging to web #maybank also cannot use. Bank Islam no need to say la.\n\nI miss the old m2u app. The best.",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.7137,
+      "category": "security_access",
+      "date": "2023-07-25",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "#maybank what's wrong with your online Maybank MAE app? Can't log in... can't enter my ID to set up secure2U? Reinstalled 3x.. Still doesn't work! \n#maybank2u",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.9147,
+      "category": "security_access",
+      "date": "2023-07-28",
+      "engagement": 3,
+      "isBlocker": true,
+      "impactScore": 2.6
+    },
+    {
+      "text": "Alert gais, especially yang ada account Maybank & MAE. Thanks \n@AinulNunanaa",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.6526,
+      "category": "general",
+      "date": "2023-07-25",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank MAE ni kenapa…… I nak book table utk tonight’s dinner……… ",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8994,
+      "category": "general",
+      "date": "2023-07-25",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "The old maybank app worked fine, did the job. Now I have a variety of options that I never wanted, will never use and cannot delete.",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.5559,
+      "category": "general",
+      "date": "2023-07-22",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Maybank app is MILES ahead of its competition",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8944,
+      "category": "general",
+      "date": "2023-07-20",
+      "engagement": 79,
+      "isBlocker": false,
+      "impactScore": 8.9
+    },
+    {
+      "text": "@GrabMY\n I had done an topup transaction via Maybank Apps to Grabpay. The transaction were successful on Maybank App and amount had deducted from My bank acc. However Grabpay mention transaction faile",
+      "sentiment": "Neutral",
+      "topic": "Phone Migration",
+      "confidence": 0.7618,
+      "category": "transaction_issue",
+      "date": "2023-07-18",
+      "engagement": 3,
+      "isBlocker": true,
+      "impactScore": 2.6
+    },
+    {
+      "text": "Since you consider that year you spent developing it a waste...\n\nMaybe it is trash, after all.\n\nDude, it ain't rocket science. Hosting multiple sessions of the same app have been done since e-mail. It",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.5031,
+      "category": "feature_usability",
+      "date": "2023-07-21",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "It is \n\nBut old time MAE users said it’s better. I still like the simpler M2U app tho",
+      "sentiment": "Positive",
+      "topic": "M2U Migration",
+      "confidence": 0.5173,
+      "category": "general",
+      "date": "2023-07-21",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Nah, MAE is shit. QR pay keeps returning server communication error.\n\nNever had the issue with M2U app.",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.9006,
+      "category": "transaction_issue",
+      "date": "2023-07-21",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "what about take the m2u multiple account access feature that THEY have from the m2u app and implement it in the MAE app? is that so hard?!",
+      "sentiment": "Neutral",
+      "topic": "M2U Migration",
+      "confidence": 0.6123,
+      "category": "security_access",
+      "date": "2023-07-21",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "Unpopular opinion: been using MAE before they disable M2U app religiously cus the app just works better, all accounts and features integrated into one.",
+      "sentiment": "Positive",
+      "topic": "M2U Migration",
+      "confidence": 0.8768,
+      "category": "feature_usability",
+      "date": "2023-07-21",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Simple is better. Dah godek godek dah pun MAE tu. I don’t need TH cause itu dah link with other banks. I don’t do other features ASB and so on. So for me it’s actually quite useless. Semata mata utk s",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.775,
+      "category": "security_access",
+      "date": "2023-07-21",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "So can we ducking delete the M2U app entirely or what.",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.8335,
+      "category": "general",
+      "date": "2023-07-20",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Better programming framework. Soon M2U app will be decommissioned",
+      "sentiment": "Neutral",
+      "topic": "M2U Migration",
+      "confidence": 0.5257,
+      "category": "feature_usability",
+      "date": "2023-07-20",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "for me mae is wayyyyyyy better than m2u app. love it",
+      "sentiment": "Positive",
+      "topic": "M2U Migration",
+      "confidence": 0.9742,
+      "category": "general",
+      "date": "2023-07-20",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Bila maybank nak shutdown M2U app ni ",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8119,
+      "category": "system_stability",
+      "date": "2023-07-20",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "MAE lah app paling user friendly pd aku. M2U app tu dh outdated.",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.529,
+      "category": "general",
+      "date": "2023-07-20",
+      "engagement": 5,
+      "isBlocker": false,
+      "impactScore": 1.5
+    },
+    {
+      "text": "Don't like the Maybank MAE app. I used to transfer money in 3 steps, now it's 7.",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.9161,
+      "category": "transaction_issue",
+      "date": "2023-07-22",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "What’s the point of this daily check ins on maybank MAE when i never win anything ",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.8576,
+      "category": "feature_usability",
+      "date": "2023-07-17",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n what the ... just open my maybank app to buy food but been blocked????? Mcam mana nak makann????",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8033,
+      "category": "security_access",
+      "date": "2023-07-15",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Okay dah dapat jawapan. Ya starting July, secure2u through MAE app only.",
+      "sentiment": "Positive",
+      "topic": "Secure2U Issues",
+      "confidence": 0.816,
+      "category": "security_access",
+      "date": "2023-07-07",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "block card guna kill switch kat mae app",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.5706,
+      "category": "general",
+      "date": "2023-07-07",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n is it possible to set a recurring transfer to the Tabung in the Mae app?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.8832,
+      "category": "transaction_issue",
+      "date": "2023-07-04",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n your MAE app to me \nx.com/jordyfourfoot/\n…",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.8417,
+      "category": "general",
+      "date": "2023-07-03",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Hey gais, do alert this okay for Maybank app users, Move to MAE now for better banking security and safer app",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.589,
+      "category": "security_access",
+      "date": "2023-07-04",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Hi \n@MyMaybank\n I DM-ed you as your M2U app suddenly can't transfer money from one Maybank acc to another. Appreciate a resolution soon. Thanks.",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.5384,
+      "category": "transaction_issue",
+      "date": "2023-07-04",
+      "engagement": 6,
+      "isBlocker": true,
+      "impactScore": 3.2
+    },
+    {
+      "text": "can i still use m2u app to do complete online transaction ? i often use computer do transfer then approve it at m2u app, but i notice message say m2u app soon will be replace by MAE.. (my old version ",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.5642,
+      "category": "transaction_issue",
+      "date": "2023-07-03",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "Everytime got case like this confirm Maybank app",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.4914,
+      "category": "general",
+      "date": "2023-06-29",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Oh, btw if you're a Maybank MAE app user, you can purchase The Childe movie ticket soon through this app. \nIt is under Coming Soon in the Movie & Leisure",
+      "sentiment": "Neutral",
+      "topic": "Savings (Tabung)",
+      "confidence": 0.5126,
+      "category": "general",
+      "date": "2023-06-25",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Masuk m2u/MAE app, click “kill switch”",
+      "sentiment": "Neutral",
+      "topic": "M2U Migration",
+      "confidence": 0.8098,
+      "category": "general",
+      "date": "2023-06-24",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "I'm sitting here at a food stall next to bangsar village and waiting for my MAE app to load. Then i figured out why it's taking tok long. Just look at the internet signal. Only 1 bar \n@MaxisListens",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7135,
+      "category": "system_stability",
+      "date": "2023-06-24",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Hi I bought a ticket today for The Flash movie in the morning on 1.56 am at MAE app. But I don't get any booking confirmation email and can't see the purchases that I made. My money already deducted f",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.5962,
+      "category": "transaction_issue",
+      "date": "2023-06-23",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "As this post is about protecting your money in the MAE app, treat it like a public announcement for your friends, family and followers.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.7601,
+      "category": "general",
+      "date": "2023-06-23",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Kalau da guna mae app, i can already delete the maybank app?",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7366,
+      "category": "general",
+      "date": "2023-06-23",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "I'm not liking that I'm being forced to get MAE App and dump Maybank2U to continue online shopping.",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8721,
+      "category": "general",
+      "date": "2023-06-22",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "At the moment, teruskan je tukar new password from m2u website and if still using m2u my app, better move to mae app immediately. Hehe alright semoga dipermudahkan.",
+      "sentiment": "Neutral",
+      "topic": "Password & Login",
+      "confidence": 0.7645,
+      "category": "security_access",
+      "date": "2023-06-21",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Istg maybank app sucks so bad. They purposely do not recognised your password and block you so you would have to keep changing the password and then when you type the same as previous, they will tell ",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9123,
+      "category": "security_access",
+      "date": "2023-06-22",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "And what about those who have a personal account and a business account? (Registered with sole proprietorship business name) MAE does not even support linking these accounts, and now you’re retiring S",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.8174,
+      "category": "security_access",
+      "date": "2023-06-23",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Jenuh satu CA satu device.\nYou can do better \n@MyMaybank\n .\nPrevious M2U app can have several accounts",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.773,
+      "category": "general",
+      "date": "2023-06-20",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n may i know i can uninstall the old M2U app and keep only the MAE?",
+      "sentiment": "Neutral",
+      "topic": "M2U Migration",
+      "confidence": 0.8716,
+      "category": "general",
+      "date": null,
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank. MAE apps paling function.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.7832,
+      "category": "feature_usability",
+      "date": "2023-06-23",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Also I really appreciate the cross border QR initiative. Just paid to a shop in Singapore with my MAE app. Can’t even feel the difference and plus the converted amount is shown immediately",
+      "sentiment": "Positive",
+      "topic": "QR Payments",
+      "confidence": 0.9115,
+      "category": "transaction_issue",
+      "date": "2023-06-16",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "I wish \n@MyMaybank\n would stop sending notifications on their MAE app about checking the new layout... I've opened the app multiple times already stop sending that notification every single day pls",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7858,
+      "category": "feature_usability",
+      "date": "2023-06-14",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Wait till i go back to malaysia, i will change maybank to hsbc  stupid low service and now i’m stuck overseas with stupid MAE app that i unlink and now can’t activate secure2u pinche stupido",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.9364,
+      "category": "security_access",
+      "date": "2023-06-13",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "The way mebenk is promoting MAE app is like they're gonna phase out m2u app for good. Is this true? Don't want to keep too many app for the same shit tho.",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.6862,
+      "category": "general",
+      "date": "2023-06-14",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "@MyMaybank\n are you having issues with your M2U app? Was forced to reset password, but failed via app and online. Calling your helpline could not get through? \n@BNM_official\n FYI",
+      "sentiment": "Negative",
+      "topic": "Password & Login",
+      "confidence": 0.8221,
+      "category": "transaction_issue",
+      "date": "2023-06-12",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "Mae app always problem ke eveytime update. Problem sampai kene log out and then nak log in the password not working.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8643,
+      "category": "security_access",
+      "date": "2023-06-09",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Ok u can def see the username TERPAMPANG thrru mae app so byebye this username i really need a new username",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.4837,
+      "category": "general",
+      "date": "2023-06-09",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "HELLO ??? ANYBODY KNOW WHY ?? MY FRIEND (najh) USE MAE MAYBANK UNTUK TRANSFER MY MONEY. MAYBANK AND BANK ISLAM USER PLS HELP ME  I NAK BAYAR DEPOSIT RUMAH LAH CIBAI  #bankislam #maybank #mae #maybank2",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.615,
+      "category": "transaction_issue",
+      "date": "2023-06-10",
+      "engagement": 20,
+      "isBlocker": false,
+      "impactScore": 3.0
+    },
+    {
+      "text": "What's wrong with Maybank Mae account. Can't even make any transaction ",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.874,
+      "category": "transaction_issue",
+      "date": "2023-06-08",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n how to solve this? Am using 1 device 1 number for personal and biz acc. Mcm mana nak switch? #maybank #mae",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.531,
+      "category": "general",
+      "date": "2023-06-06",
+      "engagement": 5,
+      "isBlocker": false,
+      "impactScore": 1.5
+    },
+    {
+      "text": "Why can't this MAE app support Android version 8.2",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8679,
+      "category": "general_service",
+      "date": "2023-06-03",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n Hi! Is MAE app having a problem right now? Because I couldn’t open my tabung at the app. Thank you :)",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.6495,
+      "category": "feature_usability",
+      "date": "2023-06-02",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Hello \n@MyMaybank\n, what are you guys doing? This is a MAE e-wallet app or Maybank app? Where’s my quick access to the e-wallet as well as top-up option? I already have Maybank app, so should I delete",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.4988,
+      "category": "security_access",
+      "date": "2023-05-31",
+      "engagement": 6,
+      "isBlocker": false,
+      "impactScore": 1.6
+    },
+    {
+      "text": "What? That's so stupid and weird. Is it just for customers who used the old Maybank app? Because I only ever used MAE.",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8975,
+      "category": "general",
+      "date": "2023-05-30",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "waw maybank mae updated version slay",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.7309,
+      "category": "general",
+      "date": "2023-06-02",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Anyone else takleh login maybank MAE app?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.8855,
+      "category": "security_access",
+      "date": "2023-05-29",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "It's not my IT guy... it's from the Maybank app LOL",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.7174,
+      "category": "general",
+      "date": "2023-05-25",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "While pushing your new MAE app, do you know your MAE app doesn’t support password auto fill whereas your previous M2U app does? Inconvenience that may influence user to use insecure password.",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.5449,
+      "category": "security_access",
+      "date": "2023-05-26",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Help how do you transfer money from tabung MAE back to your account? MAE app is down at the moment and I’m at the vet  This is so fuxkin stupid man",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9323,
+      "category": "transaction_issue",
+      "date": "2023-05-20",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "Hi \n@MyMaybank\n ... how do I remove old favourites payee from m2u app?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.8304,
+      "category": "general",
+      "date": "2023-05-14",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Tried to use my Maybank app but I’ve  been logged out. Put in my usual password but it kept saying wrong password. Panicked a bit but changed my password and everything was fine. Talked to my uncle an",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.5766,
+      "category": "security_access",
+      "date": "2023-05-12",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank app is losing its touch. It’s getting slower and slower over time, and it’s not my line connection. Used to be the fastest banking app in my phone  \n@MyMaybank",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.898,
+      "category": "system_stability",
+      "date": "2023-05-11",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "Cth eh haritu i try bayar prompt pay (pp) guna maybank mae qr tau. I try pp qr seller ni tak boleh tau, dia kata invalid (pic 1). Then i try scan polly pastel punya pp boleh pulak, dia terus direct to",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8572,
+      "category": "transaction_issue",
+      "date": "2023-05-08",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Em i takde pulak tunggu. Sbb time apply maybank app terus kena reject or waited like 3 days then dpt sms didnt go through. Pastu i dm maybank dkt twitter for help then they gave me the application cc ",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.6788,
+      "category": "general_service",
+      "date": "2023-05-05",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "I expect noti on my Maybank app from you too when that happen ",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8683,
+      "category": "general",
+      "date": "2023-05-04",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n Hi maybank, my phone have  suddenly stopped receiving notifications since May 1st on both my MAE & M2u app (especially for transfers & receiving money). Have off and on it back but it stil",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.7674,
+      "category": "transaction_issue",
+      "date": "2023-05-04",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "It’s been 2 days any of my payment on MAE app is unsuccessful. Please explain this \n@MyMaybank",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8645,
+      "category": "transaction_issue",
+      "date": "2023-04-29",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "ok question, can i install mae app and do like various tabung but without having a maybank account? is mae like bigpay or better….",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9001,
+      "category": "feature_usability",
+      "date": "2023-04-24",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "Right ive given up on PBE useless app moved to maybank app indeed",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.9335,
+      "category": "feature_usability",
+      "date": "2023-04-26",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "You can bayar zakat through Maybank app.",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8606,
+      "category": "general",
+      "date": "2023-04-19",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Maybank card yes.\nMaybank app no.",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8696,
+      "category": "general",
+      "date": "2023-04-19",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Still better than maybank app kena hack scam setiap hari",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.5061,
+      "category": "general",
+      "date": "2023-04-19",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n you MAE app is SAMPAH",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.6578,
+      "category": "general",
+      "date": "2023-04-10",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n to whom it may concern, we need this function in MAE app ",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.7296,
+      "category": "feature_usability",
+      "date": "2023-04-09",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Why I can't use QR code to transfer money in Maybank app Maybank2u? ",
+      "sentiment": "Neutral",
+      "topic": "QR Payments",
+      "confidence": 0.5076,
+      "category": "transaction_issue",
+      "date": "2023-04-10",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "I believe Maybank is transitioning to MAE now. Last month when I went to their branch to get some help on something they told me not to use the M2U app anymore, it’ll be discontinued soon and they don",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.6723,
+      "category": "general_service",
+      "date": "2023-04-11",
+      "engagement": 40,
+      "isBlocker": false,
+      "impactScore": 5.0
+    },
+    {
+      "text": "Why my MAE app cannot scan QR code from gallery. Been a few weeks dy ",
+      "sentiment": "Negative",
+      "topic": "QR Payments",
+      "confidence": 0.7521,
+      "category": "transaction_issue",
+      "date": "2023-04-08",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "Hello \n@MyMaybank\n is there something wrong with MAE app ? I can't even log in.",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7634,
+      "category": "general",
+      "date": "2023-04-06",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "I'm using the MAE app exclusively now, keeping M2U as a backup. One very important advantage MAE has over the old M2U app is notification for every transaction: money in, money out.",
+      "sentiment": "Positive",
+      "topic": "M2U Migration",
+      "confidence": 0.6954,
+      "category": "transaction_issue",
+      "date": "2023-04-05",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Fr what's the diff between MAE app and maybank2U app",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8876,
+      "category": "general",
+      "date": "2023-04-04",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "When I click my MAE app this morning, suddenly got pop up saying that the app is unlinked to the device. Like why? \n@MyMaybank\n Do i have to call the customer service?",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.7192,
+      "category": "general_service",
+      "date": "2023-04-02",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "hi everyone! the maybank app/website and CIMB is down so ill continue the refund tmr morning!! sorry!",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.6866,
+      "category": "transaction_issue",
+      "date": "2023-04-07",
+      "engagement": 6,
+      "isBlocker": true,
+      "impactScore": 3.2
+    },
+    {
+      "text": "@MyMaybank\n m2u app have a problem? The problem I am experiencing is that when I enter my password, it says it is wrong. I have changed my passwrd three times already.",
+      "sentiment": "Negative",
+      "topic": "Password & Login",
+      "confidence": 0.8106,
+      "category": "security_access",
+      "date": "2023-04-06",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "You can try the MAE app kot.",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.9158,
+      "category": "general",
+      "date": "2023-04-01",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n why MAE app crashing after each transfer. Really annoying... Device iOS",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.8725,
+      "category": "transaction_issue",
+      "date": "2023-04-01",
+      "engagement": 3,
+      "isBlocker": true,
+      "impactScore": 2.6
+    },
+    {
+      "text": "Hi \n@MyMaybank\n , I tried to set up account on MAE app but it was unable to verify me time and time again. Do the resident address needs to be same with the address on MyKad? I tried setting up from y",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6585,
+      "category": "feature_usability",
+      "date": "2023-03-30",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "Everytime I scared to open my maybank app",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.5412,
+      "category": "general",
+      "date": "2023-03-31",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "One thing can do instead of calling to blocked, which may take some time. maybank app got kill switch function dy.",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.6348,
+      "category": "security_access",
+      "date": "2023-03-29",
+      "engagement": 3,
+      "isBlocker": true,
+      "impactScore": 2.6
+    },
+    {
+      "text": "why the fuck am i getting notifications on the M2U and MAE app but its not me receiving money",
+      "sentiment": "Negative",
+      "topic": "M2U Migration",
+      "confidence": 0.9049,
+      "category": "general",
+      "date": "2023-03-21",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Is it me or maybank app ada problem",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.5309,
+      "category": "general",
+      "date": "2023-03-21",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "What’s Going On?!?!? #maybank #mae  \n@MyMaybank",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.7127,
+      "category": "general",
+      "date": "2023-03-20",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "hi \n@MyMaybank\n , kenapa mae app loading time lama sgt utk perform transaction? check for latest update but not available",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.5849,
+      "category": "transaction_issue",
+      "date": "2023-03-14",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "@MyMaybank\n you guys seriously need to buck up your MAE app dude. Every time I want to transfer the button doesn’t work and the app hangs. Is this by design ? Cmon Maybank, you’re better than this",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9031,
+      "category": "transaction_issue",
+      "date": "2023-03-12",
+      "engagement": 3,
+      "isBlocker": true,
+      "impactScore": 2.6
+    },
+    {
+      "text": "Is anyone else having an issue with their Maybank app?",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.5793,
+      "category": "feature_usability",
+      "date": "2023-03-17",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "i was not able to transact on M2U app and was forced to download your MAE app to activate secure2u. please get your facts right.",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.8174,
+      "category": "security_access",
+      "date": "2023-03-09",
+      "engagement": 5,
+      "isBlocker": false,
+      "impactScore": 1.5
+    },
+    {
+      "text": "Wth \n@MyMaybank\n , why do we have to download your MAE app just to activate secure2u function on your maybank app ? \n@BNM_official\n  please look into this.",
+      "sentiment": "Neutral",
+      "topic": "Secure2U Issues",
+      "confidence": 0.6878,
+      "category": "security_access",
+      "date": "2023-03-09",
+      "engagement": 8,
+      "isBlocker": false,
+      "impactScore": 1.8
+    },
+    {
+      "text": "Yo MAE app developers: Android users have a back button near our thumbs. Don't force us to use that tiny arrow at the top-left side of our phone and subsequently give us carpal tunnel",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.6886,
+      "category": "general",
+      "date": "2023-02-28",
+      "engagement": 147,
+      "isBlocker": false,
+      "impactScore": 15.7
+    },
+    {
+      "text": "Curious why \n@MyMaybank\n‘s MAE app devs thought its a good idea to restrict 1 acc per device?\n\nWhat abt those with business acc, or even >1 acc theyre handling? MAE can only hv 1 Secure2u per device.\n",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.5592,
+      "category": "security_access",
+      "date": "2023-02-27",
+      "engagement": 8,
+      "isBlocker": false,
+      "impactScore": 1.8
+    },
+    {
+      "text": "Practically forced into installing and using MAE because i had disabled secure2u on my old phone. Now i have two Maybank app on my phone..",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.6091,
+      "category": "security_access",
+      "date": "2023-03-01",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Am I the only one experiencing this stupid problem with maybank app where I can't login because it says wrong password????",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8984,
+      "category": "security_access",
+      "date": "2023-03-01",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "Maybank wont. Cause they are gradually phasing out M2u app.",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.5816,
+      "category": "general",
+      "date": "2023-02-28",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Looks like \n@MyMaybank\n MAE app is down but I can't do transfers from browser without the SECURE2U approval too Bring back good ol' TAC please",
+      "sentiment": "Negative",
+      "topic": "Secure2U Issues",
+      "confidence": 0.7841,
+      "category": "transaction_issue",
+      "date": "2023-02-24",
+      "engagement": 3,
+      "isBlocker": true,
+      "impactScore": 2.6
+    },
+    {
+      "text": "Hi, thank you for your response. However M2u app also have error",
+      "sentiment": "Neutral",
+      "topic": "Password & Login",
+      "confidence": 0.5863,
+      "category": "system_stability",
+      "date": "2023-02-24",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "What the fuck happen to the maybank MAE app babi lembap hanat Tiber",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.9272,
+      "category": "system_stability",
+      "date": "2023-02-24",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n Hello Maybank, MAE tgh down ke?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.7049,
+      "category": "system_stability",
+      "date": "2023-02-24",
+      "engagement": 2,
+      "isBlocker": true,
+      "impactScore": 2.4
+    },
+    {
+      "text": "Maybank MAE is down, now I can't see how poor I am",
+      "sentiment": "Negative",
+      "topic": "App Frustration",
+      "confidence": 0.8883,
+      "category": "system_stability",
+      "date": "2023-02-24",
+      "engagement": 6,
+      "isBlocker": true,
+      "impactScore": 3.2
+    },
+    {
+      "text": "Maybank mae app down? \n@MyMaybank",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.6265,
+      "category": "system_stability",
+      "date": "2023-02-24",
+      "engagement": 3,
+      "isBlocker": true,
+      "impactScore": 2.6
+    },
+    {
+      "text": "Why can’t I open MAE app I want to check my vacation tabung and see if I can afford to go to seoul encore concert later ",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.5337,
+      "category": "feature_usability",
+      "date": "2023-02-13",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "this is why i keep transferring money to my bf and use his maybank app instead  \n@syaqhiraniq_\n x.com/sofeachpiscake\n…",
+      "sentiment": "Neutral",
+      "topic": "Phone Migration",
+      "confidence": 0.6349,
+      "category": "transaction_issue",
+      "date": "2023-02-15",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "Weh i usually use my maybank app pastu haritu senak nak bayar i change la to my bank islam kan, BRUH ALMOST GOT A PANIC ATTACK I DIDNT KNOW BENDA NI SLOW NAK MAMPOS \nx.com/sofeachpiscake\n…",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.6139,
+      "category": "security_access",
+      "date": "2023-02-15",
+      "engagement": 7,
+      "isBlocker": false,
+      "impactScore": 1.7
+    },
+    {
+      "text": "Pls byk betul sampul duit Raya comel2. There's one that looks like a transaction page of the maybank app  and another one looking like electricity bill ",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.6707,
+      "category": "transaction_issue",
+      "date": "2023-02-13",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Wow! Can now transfer directly from MAE to Tabung Haji  wait, has this always been a feature on M2U app? Cause i always had to login on website to trf to TH. Thanks #maybank ",
+      "sentiment": "Positive",
+      "topic": "Other",
+      "confidence": 0.8955,
+      "category": "transaction_issue",
+      "date": "2023-02-17",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "@MyMaybank\n Any issue with M2U App? Can't access it since morning.",
+      "sentiment": "Negative",
+      "topic": "Password & Login",
+      "confidence": 0.5879,
+      "category": "security_access",
+      "date": "2023-02-16",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "@MyMaybank\n Hi Maybank, not sure if ure aware that sharing receipt after successfully transacted became text instead of PDF file like usual. This is via MAE app.",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.6182,
+      "category": "feature_usability",
+      "date": "2023-02-11",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "What is the function of having MAE app while already having Maybank app ? \n\nI dislike using MAE , you have moved secure2u to MAE.. \n\nIs your plan to drive out usage of the actual Maybank app?",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.6534,
+      "category": "security_access",
+      "date": "2023-02-08",
+      "engagement": 15,
+      "isBlocker": false,
+      "impactScore": 2.5
+    },
+    {
+      "text": "And maybank app aku kene lock  life is great i guess ",
+      "sentiment": "Positive",
+      "topic": "Maybank App General",
+      "confidence": 0.8901,
+      "category": "feature_usability",
+      "date": "2023-02-08",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "i dont have the m2u app on my phone, but i can use MAE without needing m2u for verification ",
+      "sentiment": "Neutral",
+      "topic": "M2U Migration",
+      "confidence": 0.823,
+      "category": "security_access",
+      "date": "2023-02-10",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "I’m not sure but I think this Maybank app is rigged.\n\nI don’t even have much money but it says I spent RM4k on entertainment.   \nx.com/tdanielch/stat\n…",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8504,
+      "category": "general",
+      "date": "2023-02-01",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "New function in Maybank MAE apps. You can use kill switch to temporarily deactivate your Maybank2u in all linked devices.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.878,
+      "category": "feature_usability",
+      "date": "2023-02-01",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n please plan for principal payment option feature in MAE app for loans. Thanks.",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.7127,
+      "category": "transaction_issue",
+      "date": "2023-01-27",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "MAE app. From there. I can’t recall where exactly. ",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.9197,
+      "category": "general",
+      "date": "2023-01-26",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "@MyMaybank\n \nI think you guys should just permanently shut down your MAE app. It's definitely buggy and needs heaps of testing before you force customers to use it.\nIt's not reliable at all.\nIt's a pa",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9526,
+      "category": "system_stability",
+      "date": "2023-01-25",
+      "engagement": 1,
+      "isBlocker": true,
+      "impactScore": 2.2
+    },
+    {
+      "text": "MAE app? Is there an option there?",
+      "sentiment": "Neutral",
+      "topic": "MAE App General",
+      "confidence": 0.9372,
+      "category": "general",
+      "date": "2023-01-24",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Genuine question for maybank users:\n\nIs mae app sufficient for the usual transactions or we still need the m2u app tgt. Context: I just recently enabled the secure2u on mae and no longer need to appro",
+      "sentiment": "Neutral",
+      "topic": "Maybank App General",
+      "confidence": 0.8682,
+      "category": "transaction_issue",
+      "date": "2023-01-22",
+      "engagement": 3,
+      "isBlocker": false,
+      "impactScore": 1.3
+    },
+    {
+      "text": "everytime i open my maybank mae thing a part of my soul leaves my body",
+      "sentiment": "Neutral",
+      "topic": "App Frustration",
+      "confidence": 0.5322,
+      "category": "general",
+      "date": "2023-01-27",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Something wrong with maybank? MAE apps",
+      "sentiment": "Negative",
+      "topic": "Maybank App General",
+      "confidence": 0.8064,
+      "category": "general",
+      "date": "2023-01-16",
+      "engagement": 2,
+      "isBlocker": false,
+      "impactScore": 1.2
+    },
+    {
+      "text": "Why my stupid mae app never loads in time when I want to pay for smtg",
+      "sentiment": "Negative",
+      "topic": "MAE App General",
+      "confidence": 0.9249,
+      "category": "general",
+      "date": "2023-01-08",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "I added my card directly from the apple wallet directly instead from the maybank app. It works fine. Whats your method?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "confidence": 0.5843,
+      "category": "general",
+      "date": "2023-01-11",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Yes staring from oct 2022 the secur2u function is only avalible on MAE if have not activated before in old m2u app, old m2u user activated before can continue to use, also new MAE activate secur2u nee",
+      "sentiment": "Neutral",
+      "topic": "M2U Migration",
+      "confidence": 0.9001,
+      "category": "feature_usability",
+      "date": "2023-01-06",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    }
+  ],
+  "sentimentCounts": {
+    "Negative": 207,
+    "Positive": 36,
+    "Neutral": 164
+  },
+  "topicCounts": {
+    "MAE App General": 116,
+    "Secure2U Issues": 15,
+    "M2U Migration": 29,
+    "QR Payments": 16,
+    "Maybank App General": 114,
+    "App Frustration": 12,
+    "Password & Login": 8,
+    "Savings (Tabung)": 7,
+    "Phone Migration": 9
+  },
+  "topicSentiment": {
+    "MAE App General": {
+      "Negative": 73,
+      "Positive": 6,
+      "Neutral": 37
+    },
+    "Secure2U Issues": {
+      "Neutral": 3,
+      "Negative": 11,
+      "Positive": 1
+    },
+    "M2U Migration": {
+      "Neutral": 10,
+      "Negative": 14,
+      "Positive": 5
+    },
+    "Other": {
+      "Negative": 35,
+      "Positive": 8,
+      "Neutral": 38
+    },
+    "QR Payments": {
+      "Negative": 8,
+      "Neutral": 6,
+      "Positive": 2
+    },
+    "Maybank App General": {
+      "Negative": 47,
+      "Neutral": 56,
+      "Positive": 11
+    },
+    "App Frustration": {
+      "Negative": 8,
+      "Neutral": 3,
+      "Positive": 1
+    },
+    "Password & Login": {
+      "Negative": 6,
+      "Neutral": 2
+    },
+    "Savings (Tabung)": {
+      "Negative": 3,
+      "Neutral": 3,
+      "Positive": 1
+    },
+    "Phone Migration": {
+      "Positive": 1,
+      "Neutral": 6,
+      "Negative": 2
+    }
+  },
+  "timeline": [
+    {
+      "period": "2023Q1",
+      "total": 44,
+      "Positive": 2,
+      "Neutral": 17,
+      "Negative": 25
+    },
+    {
+      "period": "2023Q2",
+      "total": 58,
+      "Positive": 3,
+      "Neutral": 23,
+      "Negative": 32
+    },
+    {
+      "period": "2023Q3",
+      "total": 77,
+      "Positive": 7,
+      "Neutral": 26,
+      "Negative": 44
+    },
+    {
+      "period": "2023Q4",
+      "total": 28,
+      "Positive": 2,
+      "Neutral": 14,
+      "Negative": 12
+    },
+    {
+      "period": "2024Q1",
+      "total": 23,
+      "Positive": 1,
+      "Neutral": 16,
+      "Negative": 6
+    },
+    {
+      "period": "2024Q2",
+      "total": 40,
+      "Positive": 5,
+      "Neutral": 17,
+      "Negative": 18
+    },
+    {
+      "period": "2024Q3",
+      "total": 26,
+      "Positive": 2,
+      "Neutral": 11,
+      "Negative": 13
+    },
+    {
+      "period": "2024Q4",
+      "total": 24,
+      "Positive": 2,
+      "Neutral": 10,
+      "Negative": 12
+    },
+    {
+      "period": "2025Q1",
+      "total": 10,
+      "Positive": 1,
+      "Neutral": 6,
+      "Negative": 3
+    },
+    {
+      "period": "2025Q2",
+      "total": 18,
+      "Positive": 3,
+      "Neutral": 5,
+      "Negative": 10
+    },
+    {
+      "period": "2025Q3",
+      "total": 23,
+      "Positive": 5,
+      "Neutral": 7,
+      "Negative": 11
+    },
+    {
+      "period": "2025Q4",
+      "total": 28,
+      "Positive": 1,
+      "Neutral": 9,
+      "Negative": 18
+    },
+    {
+      "period": "2026Q1",
+      "total": 7,
+      "Positive": 2,
+      "Neutral": 2,
+      "Negative": 3
+    }
+  ],
+  "quarterComparison": {
+    "current": {
+      "period": "2026Q1",
+      "Negative": 3,
+      "Positive": 2,
+      "Neutral": 2
+    },
+    "previous": {
+      "period": "2025Q4",
+      "Negative": 18,
+      "Positive": 1,
+      "Neutral": 9
+    }
+  },
+  "riskMatrix": [
+    {
+      "topic": "MAE App General",
+      "volume": 116,
+      "avgImpact": 1.99,
+      "blockerCount": 34,
+      "blockerPct": 29,
+      "negPct": 63,
+      "dominant": "Negative"
+    },
+    {
+      "topic": "Secure2U Issues",
+      "volume": 15,
+      "avgImpact": 1.66,
+      "blockerCount": 5,
+      "blockerPct": 33,
+      "negPct": 73,
+      "dominant": "Negative"
+    },
+    {
+      "topic": "M2U Migration",
+      "volume": 29,
+      "avgImpact": 1.22,
+      "blockerCount": 2,
+      "blockerPct": 7,
+      "negPct": 48,
+      "dominant": "Negative"
+    },
+    {
+      "topic": "QR Payments",
+      "volume": 16,
+      "avgImpact": 1.78,
+      "blockerCount": 5,
+      "blockerPct": 31,
+      "negPct": 50,
+      "dominant": "Negative"
+    },
+    {
+      "topic": "Maybank App General",
+      "volume": 114,
+      "avgImpact": 1.7,
+      "blockerCount": 17,
+      "blockerPct": 15,
+      "negPct": 41,
+      "dominant": "Neutral"
+    },
+    {
+      "topic": "App Frustration",
+      "volume": 12,
+      "avgImpact": 1.82,
+      "blockerCount": 6,
+      "blockerPct": 50,
+      "negPct": 67,
+      "dominant": "Negative"
+    },
+    {
+      "topic": "Password & Login",
+      "volume": 8,
+      "avgImpact": 1.81,
+      "blockerCount": 5,
+      "blockerPct": 62,
+      "negPct": 75,
+      "dominant": "Negative"
+    },
+    {
+      "topic": "Savings (Tabung)",
+      "volume": 7,
+      "avgImpact": 1.3,
+      "blockerCount": 0,
+      "blockerPct": 0,
+      "negPct": 43,
+      "dominant": "Neutral"
+    },
+    {
+      "topic": "Phone Migration",
+      "volume": 9,
+      "avgImpact": 1.41,
+      "blockerCount": 1,
+      "blockerPct": 11,
+      "negPct": 22,
+      "dominant": "Neutral"
+    }
+  ],
+  "topicVelocity": [
+    {
+      "topic": "Secure2U Issues",
+      "direction": "improving",
+      "changePct": -100,
+      "currentNeg": 0,
+      "previousNeg": 1,
+      "currentTotal": 1,
+      "previousTotal": 2,
+      "sparkline": [
+        {
+          "period": "2024Q4",
+          "negative": 2,
+          "total": 2
+        },
+        {
+          "period": "2025Q1",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q2",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q3",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q4",
+          "negative": 1,
+          "total": 2
+        },
+        {
+          "period": "2026Q1",
+          "negative": 0,
+          "total": 1
+        }
+      ]
+    },
+    {
+      "topic": "QR Payments",
+      "direction": "improving",
+      "changePct": -100,
+      "currentNeg": 0,
+      "previousNeg": 3,
+      "currentTotal": 0,
+      "previousTotal": 5,
+      "sparkline": [
+        {
+          "period": "2024Q4",
+          "negative": 1,
+          "total": 1
+        },
+        {
+          "period": "2025Q1",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q2",
+          "negative": 0,
+          "total": 2
+        },
+        {
+          "period": "2025Q3",
+          "negative": 0,
+          "total": 1
+        },
+        {
+          "period": "2025Q4",
+          "negative": 3,
+          "total": 5
+        },
+        {
+          "period": "2026Q1",
+          "negative": 0,
+          "total": 0
+        }
+      ]
+    },
+    {
+      "topic": "Maybank App General",
+      "direction": "improving",
+      "changePct": -100,
+      "currentNeg": 0,
+      "previousNeg": 1,
+      "currentTotal": 0,
+      "previousTotal": 4,
+      "sparkline": [
+        {
+          "period": "2024Q4",
+          "negative": 0,
+          "total": 5
+        },
+        {
+          "period": "2025Q1",
+          "negative": 0,
+          "total": 1
+        },
+        {
+          "period": "2025Q2",
+          "negative": 4,
+          "total": 7
+        },
+        {
+          "period": "2025Q3",
+          "negative": 6,
+          "total": 13
+        },
+        {
+          "period": "2025Q4",
+          "negative": 1,
+          "total": 4
+        },
+        {
+          "period": "2026Q1",
+          "negative": 0,
+          "total": 0
+        }
+      ]
+    },
+    {
+      "topic": "App Frustration",
+      "direction": "improving",
+      "changePct": -100,
+      "currentNeg": 0,
+      "previousNeg": 1,
+      "currentTotal": 0,
+      "previousTotal": 1,
+      "sparkline": [
+        {
+          "period": "2024Q4",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q1",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q2",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q3",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q4",
+          "negative": 1,
+          "total": 1
+        },
+        {
+          "period": "2026Q1",
+          "negative": 0,
+          "total": 0
+        }
+      ]
+    },
+    {
+      "topic": "Password & Login",
+      "direction": "improving",
+      "changePct": -100,
+      "currentNeg": 0,
+      "previousNeg": 1,
+      "currentTotal": 0,
+      "previousTotal": 1,
+      "sparkline": [
+        {
+          "period": "2024Q4",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q1",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q2",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q3",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q4",
+          "negative": 1,
+          "total": 1
+        },
+        {
+          "period": "2026Q1",
+          "negative": 0,
+          "total": 0
+        }
+      ]
+    },
+    {
+      "topic": "MAE App General",
+      "direction": "improving",
+      "changePct": -62,
+      "currentNeg": 3,
+      "previousNeg": 8,
+      "currentTotal": 5,
+      "previousTotal": 10,
+      "sparkline": [
+        {
+          "period": "2024Q4",
+          "negative": 8,
+          "total": 12
+        },
+        {
+          "period": "2025Q1",
+          "negative": 2,
+          "total": 4
+        },
+        {
+          "period": "2025Q2",
+          "negative": 3,
+          "total": 5
+        },
+        {
+          "period": "2025Q3",
+          "negative": 3,
+          "total": 6
+        },
+        {
+          "period": "2025Q4",
+          "negative": 8,
+          "total": 10
+        },
+        {
+          "period": "2026Q1",
+          "negative": 3,
+          "total": 5
+        }
+      ]
+    },
+    {
+      "topic": "M2U Migration",
+      "direction": "stable",
+      "changePct": 0,
+      "currentNeg": 0,
+      "previousNeg": 0,
+      "currentTotal": 1,
+      "previousTotal": 0,
+      "sparkline": [
+        {
+          "period": "2024Q4",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q1",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q2",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q3",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q4",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2026Q1",
+          "negative": 0,
+          "total": 1
+        }
+      ]
+    },
+    {
+      "topic": "Savings (Tabung)",
+      "direction": "stable",
+      "changePct": 0,
+      "currentNeg": 0,
+      "previousNeg": 0,
+      "currentTotal": 0,
+      "previousTotal": 0,
+      "sparkline": [
+        {
+          "period": "2024Q4",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q1",
+          "negative": 1,
+          "total": 1
+        },
+        {
+          "period": "2025Q2",
+          "negative": 1,
+          "total": 1
+        },
+        {
+          "period": "2025Q3",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q4",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2026Q1",
+          "negative": 0,
+          "total": 0
+        }
+      ]
+    },
+    {
+      "topic": "Phone Migration",
+      "direction": "stable",
+      "changePct": 0,
+      "currentNeg": 0,
+      "previousNeg": 0,
+      "currentTotal": 0,
+      "previousTotal": 0,
+      "sparkline": [
+        {
+          "period": "2024Q4",
+          "negative": 0,
+          "total": 1
+        },
+        {
+          "period": "2025Q1",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q2",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q3",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2025Q4",
+          "negative": 0,
+          "total": 0
+        },
+        {
+          "period": "2026Q1",
+          "negative": 0,
+          "total": 0
+        }
+      ]
+    }
+  ],
+  "categoryBreakdown": [
+    {
+      "category": "general",
+      "count": 143,
+      "Positive": 14,
+      "Neutral": 65,
+      "Negative": 64,
+      "dominant": "Neutral"
+    },
+    {
+      "category": "transaction_issue",
+      "count": 101,
+      "Positive": 7,
+      "Neutral": 37,
+      "Negative": 57,
+      "dominant": "Negative"
+    },
+    {
+      "category": "feature_usability",
+      "count": 67,
+      "Positive": 12,
+      "Neutral": 31,
+      "Negative": 24,
+      "dominant": "Neutral"
+    },
+    {
+      "category": "security_access",
+      "count": 47,
+      "Positive": 2,
+      "Neutral": 13,
+      "Negative": 32,
+      "dominant": "Negative"
+    },
+    {
+      "category": "system_stability",
+      "count": 41,
+      "Positive": 1,
+      "Neutral": 15,
+      "Negative": 25,
+      "dominant": "Negative"
+    },
+    {
+      "category": "general_service",
+      "count": 8,
+      "Positive": 0,
+      "Neutral": 3,
+      "Negative": 5,
+      "dominant": "Negative"
+    }
+  ],
+  "modelPerformance": {
+    "modelName": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+    "totalSamples": 407,
+    "averageConfidence": 0.752,
+    "medianConfidence": 0.775,
+    "lowConfidenceCount": 80,
+    "lowConfidencePct": 20,
+    "agreementRate": 61,
+    "confidenceDistribution": [
+      {
+        "range": "<0.5",
+        "count": 9
+      },
+      {
+        "range": "0.5-0.6",
+        "count": 71
+      },
+      {
+        "range": "0.6-0.7",
+        "count": 69
+      },
+      {
+        "range": "0.7-0.8",
+        "count": 76
+      },
+      {
+        "range": "0.8-0.9",
+        "count": 96
+      },
+      {
+        "range": "≥0.9",
+        "count": 86
+      }
+    ]
+  }
+}
