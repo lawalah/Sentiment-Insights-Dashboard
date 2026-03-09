@@ -142,7 +142,7 @@ export default function V2Insights({ data }) {
             severity: "info",
             icon: "💡",
             title: "Recommendation Summary",
-            description: `Key actions: (1) Fix transaction failure points — ${blockerPct}% blocker rate is above threshold. (2) Address "${riskMatrix.sort((a, b) => b.avgImpact * b.volume - a.avgImpact * a.volume)[0]?.topic}" as the highest-impact topic. (3) Review ${modelPerformance?.lowConfidenceCount || 0} low-confidence predictions for data quality.`,
+            description: `Key actions: (1) Fix transaction failure points — ${blockerPct}% blocker rate is above threshold. (2) Address "${[...riskMatrix].sort((a, b) => b.avgImpact * b.volume - a.avgImpact * a.volume)[0]?.topic}" as the highest-impact topic. (3) Review ${modelPerformance?.lowConfidenceCount || 0} low-confidence predictions for data quality.`,
         });
 
         return items;
