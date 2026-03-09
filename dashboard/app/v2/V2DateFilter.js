@@ -13,7 +13,6 @@ const PRESETS = [
 ];
 
 function getDateRange(preset) {
-    const now = new Date("2026-02-10");
     switch (preset) {
         case "6m": return { from: "2025-08-10", to: "2026-02-10" };
         case "1y": return { from: "2025-02-10", to: "2026-02-10" };
@@ -25,17 +24,72 @@ function getDateRange(preset) {
 }
 
 const btnStyle = {
-    padding: "6px 12px",
-    borderRadius: 6,
+    padding: "5px 12px",
+    borderRadius: 8,
     border: "1px solid #eaeaea",
-    fontSize: 11,
-    fontWeight: 600,
+    fontSize: 12,
+    fontWeight: 500,
     fontFamily: "inherit",
     background: "#fff",
     cursor: "pointer",
     display: "flex",
     alignItems: "center",
-    gap: 5,
+    gap: 6,
+    whiteSpace: "nowrap",
+};
+
+const countStyle = {
+    background: "#111",
+    color: "#fff",
+    fontSize: 10,
+    padding: "1px 6px",
+    borderRadius: 10,
+    fontWeight: 600,
+};
+
+const menuStyle = {
+    position: "absolute",
+    top: "calc(100% + 4px)",
+    right: 0,
+    width: "max-content",
+    minWidth: 180,
+    background: "#fff",
+    border: "1px solid #eaeaea",
+    borderRadius: 8,
+    zIndex: 100,
+    padding: "6px 0",
+    maxHeight: 260,
+    overflowY: "auto",
+};
+
+const itemStyle = {
+    display: "flex",
+    alignItems: "center",
+    gap: 8,
+    padding: "6px 14px",
+    fontSize: 12,
+    cursor: "pointer",
+    border: "none",
+    background: "transparent",
+    textAlign: "left",
+    width: "100%",
+    fontFamily: "inherit",
+    color: "#333",
+};
+
+const checkStyle = {
+    width: 16,
+    height: 16,
+    borderRadius: 4,
+    border: "1.5px solid #eaeaea",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: 11,
+    flexShrink: 0,
+    transition: "all 0.15s",
+    color: "transparent",
+    background: "#fff",
 };
 
 export default function V2DateFilter({ dateRange, onDateChange }) {
@@ -64,73 +118,78 @@ export default function V2DateFilter({ dateRange, onDateChange }) {
 
     const activeLabel = PRESETS.find((p) => p.value === preset)?.label || "All Time";
     const hasFilter = dateRange.from || dateRange.to;
+    const isSelected = hasFilter || preset !== "all";
+
+    const clearDateFilter = () => {
+        setPreset("all");
+        onDateChange({ from: "", to: "" });
+        setOpen(false);
+    };
 
     return (
         <div style={{ position: "relative" }} ref={ref}>
             <button
-                style={{
-                    ...btnStyle,
-                    background: hasFilter ? "rgba(57,255,20,0.08)" : "#fff",
-                    borderColor: hasFilter ? "rgba(57,255,20,0.3)" : "#eaeaea",
-                }}
+                style={btnStyle}
                 onClick={() => setOpen(!open)}
             >
-                📅 {hasFilter ? activeLabel : "Date Range"}
-                <span style={{ fontSize: 8, color: "#999" }}>▼</span>
+                Date Range
+                {isSelected && <span style={countStyle}>1</span>}
+                <span style={{ fontSize: 10, opacity: 0.5 }}>▾</span>
             </button>
 
             {open && (
-                <div style={{
-                    position: "absolute",
-                    top: "100%",
-                    right: 0,
-                    marginTop: 4,
-                    background: "#fff",
-                    border: "1px solid #eaeaea",
-                    borderRadius: 10,
-                    padding: 10,
-                    zIndex: 100,
-                    width: 220,
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: 3,
-                }}>
+                <div style={menuStyle}>
                     {PRESETS.map((p) => (
                         <button
                             key={p.value}
                             onClick={() => handlePreset(p.value)}
-                            style={{
-                                padding: "6px 10px",
-                                border: "none",
-                                borderRadius: 6,
-                                fontSize: 12,
-                                fontFamily: "inherit",
-                                fontWeight: preset === p.value ? 700 : 500,
-                                background: preset === p.value ? "rgba(57,255,20,0.1)" : "transparent",
-                                color: preset === p.value ? "#111" : "#666",
-                                cursor: "pointer",
-                                textAlign: "left",
-                            }}
+                            style={itemStyle}
                         >
+                            <span
+                                style={{
+                                    ...checkStyle,
+                                    background: preset === p.value ? "#111" : "#fff",
+                                    borderColor: preset === p.value ? "#111" : "#eaeaea",
+                                    color: preset === p.value ? "#fff" : "transparent",
+                                }}
+                            >
+                                ✓
+                            </span>
                             {p.label}
                         </button>
                     ))}
 
+                    {isSelected && (
+                        <button
+                            onClick={clearDateFilter}
+                            style={{
+                                ...itemStyle,
+                                borderTop: "1px solid #eaeaea",
+                                marginTop: 4,
+                                paddingTop: 8,
+                                color: "#7c3aed",
+                                fontWeight: 500,
+                            }}
+                        >
+                            Clear date filter
+                        </button>
+                    )}
+
                     {preset === "custom" && (
-                        <div style={{ display: "flex", flexDirection: "column", gap: 6, marginTop: 6, borderTop: "1px solid #eee", paddingTop: 8 }}>
+                        <div style={{ display: "flex", flexDirection: "column", gap: 6, marginTop: 6, borderTop: "1px solid #eee", padding: "8px 14px 2px" }}>
                             <label style={{ fontSize: 10, color: "#888", fontWeight: 600 }}>FROM</label>
                             <input
                                 type="date"
                                 value={dateRange.from}
                                 onChange={(e) => onDateChange({ ...dateRange, from: e.target.value })}
-                                style={{ padding: "4px 8px", border: "1px solid #ddd", borderRadius: 6, fontSize: 11, fontFamily: "inherit" }}
+                                style={{ padding: "5px 8px", border: "1px solid #ddd", borderRadius: 6, fontSize: 11, fontFamily: "inherit" }}
                             />
                             <label style={{ fontSize: 10, color: "#888", fontWeight: 600 }}>TO</label>
                             <input
                                 type="date"
                                 value={dateRange.to}
                                 onChange={(e) => onDateChange({ ...dateRange, to: e.target.value })}
-                                style={{ padding: "4px 8px", border: "1px solid #ddd", borderRadius: 6, fontSize: 11, fontFamily: "inherit" }}
+                                style={{ padding: "5px 8px", border: "1px solid #ddd", borderRadius: 6, fontSize: 11, fontFamily: "inherit" }}
                             />
                         </div>
                     )}
