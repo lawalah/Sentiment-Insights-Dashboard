@@ -59,7 +59,7 @@ export default function V2Insights({ data }) {
                 .sort((a, b) => b.blockers - a.blockers)[0];
             items.push({
                 severity: "critical",
-                icon: "🔴",
+                icon: "⊘",
                 title: `${blockerPct}% of tweets are transaction blockers`,
                 description: `${blockers} out of ${total} tweets describe issues that prevent users from completing transactions. "${CATEGORY_LABELS[topBlockerCat?.cat] || topBlockerCat?.cat}" has the most blockers (${topBlockerCat?.blockers}). Recommend prioritizing payment flow stability and error handling.`,
             });
@@ -69,7 +69,7 @@ export default function V2Insights({ data }) {
         if (brandHealth < 30) {
             items.push({
                 severity: "critical",
-                icon: "⚠️",
+                icon: "▲",
                 title: `Brand Health is critically low at ${brandHealth}%`,
                 description: `Only ${pos} out of ${pos + neg} opinionated tweets are positive. Industry benchmark for fintech apps is 40-60%. Negative sentiment significantly outweighs positive, indicating widespread user dissatisfaction.`,
             });
@@ -81,7 +81,7 @@ export default function V2Insights({ data }) {
             const topW = worsening[0];
             items.push({
                 severity: "warning",
-                icon: "📈",
+                icon: "↗",
                 title: `${worsening.length} topic(s) worsening`,
                 description: `"${topW.topic}" saw a ${Math.abs(topW.changePct)}% increase in negative sentiment vs previous quarter (${topW.previousNeg} → ${topW.currentNeg} negative tweets). Monitor closely for escalation.`,
             });
@@ -92,7 +92,7 @@ export default function V2Insights({ data }) {
         if (highNeg.length > 0) {
             items.push({
                 severity: "warning",
-                icon: "🎯",
+                icon: "◎",
                 title: `${highNeg.length} topic(s) have majority negative sentiment`,
                 description: `${highNeg.map((r) => `"${r.topic}" (${r.negPct}% negative, ${r.volume} tweets)`).join(", ")}. These represent the highest-risk areas for customer churn.`,
             });
@@ -103,7 +103,7 @@ export default function V2Insights({ data }) {
         if (improving.length > 0) {
             items.push({
                 severity: "positive",
-                icon: "✅",
+                icon: "✓",
                 title: `${improving.length} topic(s) showing improvement`,
                 description: `${improving.slice(0, 3).map((t) => `"${t.topic}" (${t.changePct}%)`).join(", ")} saw reduced negative sentiment vs previous quarter. Continue current measures.`,
             });
@@ -115,7 +115,7 @@ export default function V2Insights({ data }) {
             if (lowConf > 15) {
                 items.push({
                     severity: "warning",
-                    icon: "🤖",
+                    icon: "⚙",
                     title: `${lowConf}% of predictions have low confidence`,
                     description: `${modelPerformance.lowConfidenceCount} tweets scored below 60% confidence. These may be misclassified. Consider manual review of low-confidence negative tweets to ensure blocker detection accuracy.`,
                 });
@@ -131,7 +131,7 @@ export default function V2Insights({ data }) {
         if (catBlockerRates.length > 0) {
             items.push({
                 severity: "info",
-                icon: "📊",
+                icon: "☷",
                 title: "Category blocker density analysis",
                 description: `${catBlockerRates.map((c) => `"${CATEGORY_LABELS[c.category] || c.category}" has ${c.blockerRate}% blocker rate (${c.blockerCount}/${c.count})`).join(". ")}. These categories have disproportionately high complaint severity.`,
             });
@@ -140,7 +140,7 @@ export default function V2Insights({ data }) {
         // ── Positive: Top insight summary
         items.push({
             severity: "info",
-            icon: "💡",
+            icon: "✦",
             title: "Recommendation Summary",
             description: `Key actions: (1) Fix transaction failure points — ${blockerPct}% blocker rate is above threshold. (2) Address "${[...riskMatrix].sort((a, b) => b.avgImpact * b.volume - a.avgImpact * a.volume)[0]?.topic}" as the highest-impact topic. (3) Review ${modelPerformance?.lowConfidenceCount || 0} low-confidence predictions for data quality.`,
         });
