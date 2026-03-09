@@ -11,27 +11,27 @@ const CATEGORY_LABELS = {
     general_service: "General Service",
 };
 
-function InsightCard({ severity, icon, title, description }) {
-    const colors = {
-        critical: { bg: "rgba(255,68,68,0.06)", border: "rgba(255,68,68,0.2)", accent: "#FF4444" },
-        warning: { bg: "rgba(255,170,0,0.06)", border: "rgba(255,170,0,0.2)", accent: "#FFAA00" },
-        positive: { bg: "rgba(57,255,20,0.06)", border: "rgba(57,255,20,0.2)", accent: "#39FF14" },
-        info: { bg: "rgba(0,229,255,0.06)", border: "rgba(0,229,255,0.2)", accent: "#00E5FF" },
+function InsightCard({ severity, title, description }) {
+    const properties = {
+        critical: { bg: "rgba(255,68,68,0.06)", border: "rgba(255,68,68,0.2)", accent: "#FF4444", icon: "⊘" },
+        warning: { bg: "rgba(255,170,0,0.06)", border: "rgba(255,170,0,0.2)", accent: "#FFAA00", icon: "▲" },
+        positive: { bg: "rgba(57,255,20,0.06)", border: "rgba(57,255,20,0.2)", accent: "#39FF14", icon: "✓" },
+        info: { bg: "rgba(0,229,255,0.06)", border: "rgba(0,229,255,0.2)", accent: "#00E5FF", icon: "✦" },
     };
-    const c = colors[severity] || colors.info;
+    const p = properties[severity] || properties.info;
 
     return (
         <div style={{
-            background: c.bg,
-            border: `1px solid ${c.border}`,
-            borderLeft: `4px solid ${c.accent}`,
+            background: p.bg,
+            border: `1px solid ${p.border}`,
+            borderLeft: `3px solid ${p.accent}`,
             borderRadius: 10,
             padding: "14px 18px",
             display: "flex",
             gap: 12,
             alignItems: "flex-start",
         }}>
-            <span style={{ fontSize: 20, flexShrink: 0 }}>{icon}</span>
+            <span style={{ fontSize: 18, color: p.accent, flexShrink: 0, marginTop: -2 }}>{p.icon}</span>
             <div>
                 <div style={{ fontSize: 13, fontWeight: 700, marginBottom: 4 }}>{title}</div>
                 <div style={{ fontSize: 12, color: "#555", lineHeight: 1.5 }}>{description}</div>
@@ -59,7 +59,6 @@ export default function V2Insights({ data }) {
                 .sort((a, b) => b.blockers - a.blockers)[0];
             items.push({
                 severity: "critical",
-                icon: "⊘",
                 title: `${blockerPct}% of tweets are transaction blockers`,
                 description: `${blockers} out of ${total} tweets describe issues that prevent users from completing transactions. "${CATEGORY_LABELS[topBlockerCat?.cat] || topBlockerCat?.cat}" has the most blockers (${topBlockerCat?.blockers}). Recommend prioritizing payment flow stability and error handling.`,
             });
@@ -69,7 +68,6 @@ export default function V2Insights({ data }) {
         if (brandHealth < 30) {
             items.push({
                 severity: "critical",
-                icon: "▲",
                 title: `Brand Health is critically low at ${brandHealth}%`,
                 description: `Only ${pos} out of ${pos + neg} opinionated tweets are positive. Industry benchmark for fintech apps is 40-60%. Negative sentiment significantly outweighs positive, indicating widespread user dissatisfaction.`,
             });
@@ -81,7 +79,6 @@ export default function V2Insights({ data }) {
             const topW = worsening[0];
             items.push({
                 severity: "warning",
-                icon: "↗",
                 title: `${worsening.length} topic(s) worsening`,
                 description: `"${topW.topic}" saw a ${Math.abs(topW.changePct)}% increase in negative sentiment vs previous quarter (${topW.previousNeg} → ${topW.currentNeg} negative tweets). Monitor closely for escalation.`,
             });
@@ -92,7 +89,6 @@ export default function V2Insights({ data }) {
         if (highNeg.length > 0) {
             items.push({
                 severity: "warning",
-                icon: "◎",
                 title: `${highNeg.length} topic(s) have majority negative sentiment`,
                 description: `${highNeg.map((r) => `"${r.topic}" (${r.negPct}% negative, ${r.volume} tweets)`).join(", ")}. These represent the highest-risk areas for customer churn.`,
             });
@@ -103,7 +99,6 @@ export default function V2Insights({ data }) {
         if (improving.length > 0) {
             items.push({
                 severity: "positive",
-                icon: "✓",
                 title: `${improving.length} topic(s) showing improvement`,
                 description: `${improving.slice(0, 3).map((t) => `"${t.topic}" (${t.changePct}%)`).join(", ")} saw reduced negative sentiment vs previous quarter. Continue current measures.`,
             });
@@ -115,7 +110,6 @@ export default function V2Insights({ data }) {
             if (lowConf > 15) {
                 items.push({
                     severity: "warning",
-                    icon: "⚙",
                     title: `${lowConf}% of predictions have low confidence`,
                     description: `${modelPerformance.lowConfidenceCount} tweets scored below 60% confidence. These may be misclassified. Consider manual review of low-confidence negative tweets to ensure blocker detection accuracy.`,
                 });
@@ -131,7 +125,6 @@ export default function V2Insights({ data }) {
         if (catBlockerRates.length > 0) {
             items.push({
                 severity: "info",
-                icon: "☷",
                 title: "Category blocker density analysis",
                 description: `${catBlockerRates.map((c) => `"${CATEGORY_LABELS[c.category] || c.category}" has ${c.blockerRate}% blocker rate (${c.blockerCount}/${c.count})`).join(". ")}. These categories have disproportionately high complaint severity.`,
             });
@@ -140,7 +133,6 @@ export default function V2Insights({ data }) {
         // ── Positive: Top insight summary
         items.push({
             severity: "info",
-            icon: "✦",
             title: "Recommendation Summary",
             description: `Key actions: (1) Fix transaction failure points — ${blockerPct}% blocker rate is above threshold. (2) Address "${[...riskMatrix].sort((a, b) => b.avgImpact * b.volume - a.avgImpact * a.volume)[0]?.topic}" as the highest-impact topic. (3) Review ${modelPerformance?.lowConfidenceCount || 0} low-confidence predictions for data quality.`,
         });
