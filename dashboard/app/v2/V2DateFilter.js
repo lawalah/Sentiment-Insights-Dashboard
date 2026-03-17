@@ -12,6 +12,20 @@ const PRESETS = [
     { label: "Custom", value: "custom" },
 ];
 
+function quarterToRange(quarter) {
+    const m = /^(\d{4})Q([1-4])$/.exec(quarter || "");
+    if (!m) return { from: "", to: "" };
+
+    const year = Number(m[1]);
+    const q = Number(m[2]);
+    const startMonth = (q - 1) * 3 + 1;
+    const endMonth = startMonth + 2;
+    const from = `${year}-${String(startMonth).padStart(2, "0")}-01`;
+    const endDate = new Date(Date.UTC(year, endMonth, 0));
+    const to = `${year}-${String(endMonth).padStart(2, "0")}-${String(endDate.getUTCDate()).padStart(2, "0")}`;
+    return { from, to };
+}
+
 function getDateRange(preset) {
     switch (preset) {
         case "6m": return { from: "2025-08-10", to: "2026-02-10" };
@@ -92,7 +106,7 @@ const checkStyle = {
     background: "#fff",
 };
 
-export default function V2DateFilter({ dateRange, onDateChange }) {
+export default function V2DateFilter({ dateRange, onDateChange, quarters = [] }) {
     const [open, setOpen] = useState(false);
     const [preset, setPreset] = useState("all");
     const ref = useRef(null);
@@ -116,7 +130,15 @@ export default function V2DateFilter({ dateRange, onDateChange }) {
         }
     };
 
-    const activeLabel = PRESETS.find((p) => p.value === preset)?.label || "All Time";
+    const handleQuarter = (q) => {
+        setPreset(`q:${q}`);
+        onDateChange(quarterToRange(q));
+        setOpen(false);
+    };
+
+    const activeLabel = preset.startsWith("q:")
+        ? preset.slice(2)
+        : (PRESETS.find((p) => p.value === preset)?.label || "All Time");
     const hasFilter = dateRange.from || dateRange.to;
     const isSelected = hasFilter || preset !== "all";
 
@@ -158,6 +180,34 @@ export default function V2DateFilter({ dateRange, onDateChange }) {
                             {p.label}
                         </button>
                     ))}
+
+                    {quarters.length > 0 && (
+                        <>
+                            <div style={{ borderTop: "1px solid #eee", margin: "6px 0" }} />
+                            <div style={{ fontSize: 10, color: "#888", fontWeight: 700, padding: "2px 14px 6px" }}>
+                                QUARTER
+                            </div>
+                            {[...quarters].reverse().map((q) => (
+                                <button
+                                    key={q}
+                                    onClick={() => handleQuarter(q)}
+                                    style={itemStyle}
+                                >
+                                    <span
+                                        style={{
+                                            ...checkStyle,
+                                            background: preset === `q:${q}` ? "#111" : "#fff",
+                                            borderColor: preset === `q:${q}` ? "#111" : "#eaeaea",
+                                            color: preset === `q:${q}` ? "#fff" : "transparent",
+                                        }}
+                                    >
+                                        ✓
+                                    </span>
+                                    {q}
+                                </button>
+                            ))}
+                        </>
+                    )}
 
                     {isSelected && (
                         <button

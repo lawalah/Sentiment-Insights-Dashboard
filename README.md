@@ -42,6 +42,82 @@ The pipeline roughly looks like this:
 4. Generate dashboard-ready data using `generate_dashboard_data.py`.
 5. Start the dashboard app (from the `dashboard` directory) and view insights in the browser.
 
+## Near Real-Time Writer (1-minute refresh)
+
+To continuously generate dashboard-compatible realtime JSON for the API fallback flow:
+
+```bash
+python realtime_writer.py --csv mae_results.csv --output dashboard/public/realtime/data_latest.json --interval 60
+```
+
+This updates `dashboard/public/realtime/data_latest.json` every 60 seconds.
+
+## True Near-Real-Time Pipeline (Scrape + Inference + Dashboard)
+
+To continuously scrape new tweets, append into `mae_results.csv`, run sentiment/topic assignment, and refresh dashboard JSON in one loop:
+
+```bash
+python realtime_pipeline.py --csv mae_results.csv --output dashboard/public/realtime/data_latest.json --interval 60 --max-new 20
+```
+
+This pipeline can run in attach-mode (default, recommended) and performs:
+- Live scrape from X search
+- De-dup append to `mae_results.csv`
+- Sentiment inference (model if available, heuristic fallback)
+- Topic assignment
+- Rebuild `dashboard/public/realtime/data_latest.json`
+
+## True Always-On (macOS launchd + dedicated Chrome profile)
+
+This project now includes a launch agent template at:
+
+`scripts/com.sentiment.realtime.pipeline.plist`
+
+### 1) Start your normal Chrome in remote-debug mode (already logged into X)
+
+Run Chrome with debugger port 9222 (you can keep using your normal profile/session):
+
+```bash
+open -na "Google Chrome" --args --remote-debugging-port=9222
+```
+
+### 2) Prepare logs folder
+
+```bash
+mkdir -p /Users/lawalah/Documents/sentiment_project/logs
+```
+
+### 3) Install and start launch agent
+
+```bash
+cp /Users/lawalah/Documents/sentiment_project/scripts/com.sentiment.realtime.pipeline.plist /Users/lawalah/Library/LaunchAgents/com.sentiment.realtime.pipeline.plist
+launchctl bootstrap gui/$(id -u) /Users/lawalah/Library/LaunchAgents/com.sentiment.realtime.pipeline.plist
+launchctl enable gui/$(id -u)/com.sentiment.realtime.pipeline
+launchctl kickstart -k gui/$(id -u)/com.sentiment.realtime.pipeline
+```
+
+### 4) Check status
+
+```bash
+launchctl print gui/$(id -u)/com.sentiment.realtime.pipeline | head -n 40
+tail -f /Users/lawalah/Documents/sentiment_project/logs/realtime_pipeline.out.log
+```
+
+### 5) Stop / remove service
+
+```bash
+launchctl bootout gui/$(id -u) /Users/lawalah/Library/LaunchAgents/com.sentiment.realtime.pipeline.plist
+rm /Users/lawalah/Library/LaunchAgents/com.sentiment.realtime.pipeline.plist
+```
+
+Health file is written every cycle to:
+
+`dashboard/public/realtime/pipeline_health.json`
+
+Attach-mode details in [`realtime_pipeline.py`](realtime_pipeline.py):
+- [`--browser-mode attach`](realtime_pipeline.py:314)
+- [`--debugger-address 127.0.0.1:9222`](realtime_pipeline.py:321)
+
 ## Project Goal
 
 The goal is to provide **actionable insights** about MAE app user feedback, helping stakeholders quickly see:

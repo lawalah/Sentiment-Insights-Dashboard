@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.sentiment.realtime.pipeline</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/anaconda3/bin/python3</string>
+    <string>/Users/lawalah/Documents/sentiment_project/realtime_pipeline.py</string>
+    <string>--csv</string>
+    <string>/Users/lawalah/Documents/sentiment_project/mae_results.csv</string>
+    <string>--output</string>
+    <string>/Users/lawalah/Documents/sentiment_project/dashboard/public/realtime/data_latest.json</string>
+    <string>--health-file</string>
+    <string>/Users/lawalah/Documents/sentiment_project/dashboard/public/realtime/pipeline_health.json</string>
+    <string>--interval</string>
+    <string>60</string>
+    <string>--max-new</string>
+    <string>20</string>
+    <string>--browser-mode</string>
+    <string>attach</string>
+    <string>--debugger-address</string>
+    <string>127.0.0.1:9222</string>
+  </array>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/lawalah/Documents/sentiment_project</string>
+
+  <key>StandardOutPath</key>
+  <string>/Users/lawalah/Documents/sentiment_project/logs/realtime_pipeline.out.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/lawalah/Documents/sentiment_project/logs/realtime_pipeline.err.log</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PYTHONUNBUFFERED</key>
+    <string>1</string>
+    <key>PYTHONPATH</key>
+    <string>/Users/lawalah/Documents/sentiment_project</string>
+  </dict>
+</dict>
+</plist>

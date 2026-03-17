@@ -5,7 +5,9 @@ Adds:
 - Per-tweet: date, category, engagement, isBlocker, impactScore
 - Aggregations: quarterComparison, topicVelocity, riskMatrix, categoryBreakdown
 """
+import argparse
 import json
+import os
 import re
 from collections import defaultdict, Counter
 
@@ -25,13 +27,13 @@ BLOCKER_RE = [re.compile(p, re.IGNORECASE) for p in BLOCKER_PATTERNS]
 
 # ── Topic label mapping from BERTopic topic IDs ──────────────────────
 TOPIC_MAP = {
-    "0_mae app_mae_mymaybank_app": "MAE App General",
-    "1_maybank app_maybank_app_mae": "Maybank App General",
-    "2_m2u_m2u app_old_app": "M2U Migration",
+    "0_mae app_mae_mymaybank_app": "App General Issues",
+    "1_maybank app_maybank_app_mae": "App General Issues",
+    "2_m2u_m2u app_old_app": "Migration & Device Change",
     "3_qr_pay_code_payment": "QR Payments",
     "4_secure2u_phone_activate_mae app": "Secure2U Issues",
     "5_maybank mae_maybank_fuck_mae": "App Frustration",
-    "6_phone_maybank app_new phone_maybank": "Phone Migration",
+    "6_phone_maybank app_new phone_maybank": "Migration & Device Change",
     "7_m2u_m2u app_password_app": "Password & Login",
     "8_manage_movie_saving_save": "Savings (Tabung)",
     "Outlier": "Other",
@@ -59,11 +61,11 @@ def parse_quarter(date_str):
         return None
 
 
-def main():
+def generate(csv_path=CSV_PATH, output_path=OUTPUT_PATH):
     import csv
 
     rows = []
-    with open(CSV_PATH, encoding="utf-8") as f:
+    with open(csv_path, encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
             rows.append(row)
@@ -288,18 +290,34 @@ def main():
         "modelPerformance": model_performance,
     }
 
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    output_dir = os.path.dirname(output_path)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
     # Stats
     blocker_count = sum(1 for t in tweets if t["isBlocker"])
-    print(f"✅ Generated {OUTPUT_PATH}")
+    blocker_pct = round(blocker_count / max(len(tweets), 1) * 100)
+    print(f"✅ Generated {output_path}")
     print(f"   {len(tweets)} tweets")
-    print(f"   {blocker_count} transaction blockers ({blocker_count*100//len(tweets)}%)")
+    print(f"   {blocker_count} transaction blockers ({blocker_pct}%)")
     print(f"   {len(risk_matrix)} topics in risk matrix")
     print(f"   {len(topic_velocity)} topics with velocity")
     print(f"   {len(category_breakdown)} business categories")
     print(f"   {len(timeline)} quarters in timeline")
+
+    return data
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate dashboard JSON from mae_results.csv")
+    parser.add_argument("--csv", default=CSV_PATH, help="Input CSV path")
+    parser.add_argument("--output", default=OUTPUT_PATH, help="Output JSON path")
+    args = parser.parse_args()
+
+    generate(csv_path=args.csv, output_path=args.output)
 
 
 if __name__ == "__main__":

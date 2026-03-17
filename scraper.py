@@ -2,6 +2,7 @@ import csv
 import time
 import os
 import re
+import argparse
 import urllib.parse
 from datetime import datetime, timedelta
 from selenium import webdriver
@@ -13,8 +14,8 @@ OUTPUT_FILE = 'sentiment_data.csv'
 TARGET_PER_CHUNK = 50 
 
 # DATE RANGE: Jan 1, 2024 to Feb 28, 2026 (26 Months)
-END_DATE = datetime(2026, 2, 15)
-START_DATE = datetime(2023, 1, 1)
+END_DATE = datetime(2026, 3, 12)
+START_DATE = datetime(2026, 2, 16)
 
 # --- 2. QUERY STRATEGY ---
 # Each app name gets its OWN short query (no keyword requirement).
@@ -175,6 +176,14 @@ def generate_weekly_chunks(start_date, end_date):
         chunks.append((chunk_start.strftime("%Y-%m-%d"), current.strftime("%Y-%m-%d")))
         current = chunk_start
     return chunks
+
+
+def parse_date_arg(value):
+    """Parse YYYY-MM-DD CLI date input into datetime."""
+    try:
+        return datetime.strptime(value, "%Y-%m-%d")
+    except ValueError as error:
+        raise argparse.ArgumentTypeError(f"Invalid date '{value}'. Use YYYY-MM-DD") from error
 
 def setup_driver():
     print("🔹 Connecting to existing Chrome window...")
@@ -382,9 +391,22 @@ def save_to_csv_append(data):
 
 if __name__ == "__main__":
     try:
+        parser = argparse.ArgumentParser(description="Scrape X posts for MAE sentiment pipeline")
+        parser.add_argument("--start-date", type=parse_date_arg, default=START_DATE, help="Inclusive start date (YYYY-MM-DD)")
+        parser.add_argument("--end-date", type=parse_date_arg, default=END_DATE, help="Exclusive end date (YYYY-MM-DD)")
+        parser.add_argument("--target-per-chunk", type=int, default=TARGET_PER_CHUNK, help="Max records per weekly chunk")
+        args = parser.parse_args()
+
+        if args.end_date <= args.start_date:
+            raise ValueError("--end-date must be after --start-date")
+
+        TARGET_PER_CHUNK = max(args.target_per_chunk, 1)
+
         driver = setup_driver()
         master_seen_set = clean_existing_file()
-        chunks = generate_weekly_chunks(START_DATE, END_DATE)
+        chunks = generate_weekly_chunks(args.start_date, args.end_date)
+        print(f"📅 Date window: {args.start_date.strftime('%Y-%m-%d')} to {args.end_date.strftime('%Y-%m-%d')}")
+        print(f"🎯 Target per chunk: {TARGET_PER_CHUNK}")
         print(f"🚀 Created {len(chunks)} weekly search chunks.")
         
         for i, (start, end) in enumerate(chunks):

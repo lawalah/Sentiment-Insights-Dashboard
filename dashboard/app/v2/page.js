@@ -22,8 +22,132 @@ const SENTIMENT_COLORS = {
     Negative: "#FF10F0",
 };
 
+function parseQuarter(dateStr) {
+    if (!dateStr) return null;
+    const m = /^(\d{4})-(\d{2})-\d{2}$/.exec(dateStr);
+    if (!m) return null;
+    const year = Number(m[1]);
+    const month = Number(m[2]);
+    if (!year || !month) return null;
+    const q = Math.floor((month - 1) / 3) + 1;
+    return `${year}Q${q}`;
+}
+
+function buildTimelineFromTweets(tweets) {
+    const bucket = {};
+    for (const t of tweets) {
+        const q = parseQuarter(t.date);
+        if (!q) continue;
+        if (!bucket[q]) bucket[q] = { period: q, total: 0, Positive: 0, Neutral: 0, Negative: 0 };
+        bucket[q].total += 1;
+        if (["Positive", "Neutral", "Negative"].includes(t.sentiment)) {
+            bucket[q][t.sentiment] += 1;
+        }
+    }
+    return Object.values(bucket).sort((a, b) => a.period.localeCompare(b.period));
+}
+
+function buildRiskMatrixFromTweets(tweets) {
+    const topics = Array.from(new Set(tweets.map((t) => t.topic).filter(Boolean)));
+    return topics.map((topic) => {
+        const topicTweets = tweets.filter((t) => t.topic === topic);
+        const volume = topicTweets.length;
+        const blockers = topicTweets.filter((t) => t.isBlocker).length;
+        const totalImpact = topicTweets.reduce((s, t) => s + (Number(t.impactScore) || 0), 0);
+        const avgImpact = Number((totalImpact / Math.max(volume, 1)).toFixed(2));
+        const negCount = topicTweets.filter((t) => t.sentiment === "Negative").length;
+        const negPct = Math.round((negCount / Math.max(volume, 1)) * 100);
+        const sentimentCounts = {
+            Positive: topicTweets.filter((t) => t.sentiment === "Positive").length,
+            Neutral: topicTweets.filter((t) => t.sentiment === "Neutral").length,
+            Negative: topicTweets.filter((t) => t.sentiment === "Negative").length,
+        };
+        const dominant = Object.entries(sentimentCounts).sort((a, b) => b[1] - a[1])[0]?.[0] || "Neutral";
+
+        return {
+            topic,
+            volume,
+            avgImpact,
+            blockerCount: blockers,
+            blockerPct: Math.round((blockers / Math.max(volume, 1)) * 100),
+            negPct,
+            dominant,
+        };
+    });
+}
+
+function buildTopicVelocityFromTweets(tweets) {
+    const topicQuarter = {};
+    const quarters = new Set();
+
+    for (const t of tweets) {
+        const q = parseQuarter(t.date);
+        if (!q || !t.topic) continue;
+        quarters.add(q);
+        if (!topicQuarter[t.topic]) topicQuarter[t.topic] = {};
+        if (!topicQuarter[t.topic][q]) topicQuarter[t.topic][q] = { Negative: 0, total: 0 };
+        topicQuarter[t.topic][q].total += 1;
+        if (t.sentiment === "Negative") topicQuarter[t.topic][q].Negative += 1;
+    }
+
+    const sortedQuarters = Array.from(quarters).sort();
+    if (sortedQuarters.length < 2) return [];
+
+    const currQ = sortedQuarters[sortedQuarters.length - 1];
+    const prevQ = sortedQuarters[sortedQuarters.length - 2];
+
+    const out = Object.keys(topicQuarter).map((topic) => {
+        const currNeg = topicQuarter[topic][currQ]?.Negative || 0;
+        const prevNeg = topicQuarter[topic][prevQ]?.Negative || 0;
+        const currTotal = topicQuarter[topic][currQ]?.total || 0;
+        const prevTotal = topicQuarter[topic][prevQ]?.total || 0;
+
+        const changePct = prevNeg > 0 ? Math.round(((currNeg - prevNeg) / prevNeg) * 100) : (currNeg > 0 ? 100 : 0);
+        const direction = changePct > 20 ? "worsening" : changePct < -20 ? "improving" : "stable";
+
+        const sparkline = sortedQuarters.slice(-6).map((q) => ({
+            period: q,
+            negative: topicQuarter[topic][q]?.Negative || 0,
+            total: topicQuarter[topic][q]?.total || 0,
+        }));
+
+        return {
+            topic,
+            direction,
+            changePct,
+            currentNeg: currNeg,
+            previousNeg: prevNeg,
+            currentTotal: currTotal,
+            previousTotal: prevTotal,
+            sparkline,
+        };
+    });
+
+    return out.sort((a, b) => Math.abs(b.changePct) - Math.abs(a.changePct));
+}
+
+function buildCategoryBreakdownFromTweets(tweets) {
+    const map = {};
+    for (const t of tweets) {
+        const c = t.category || "general";
+        if (!map[c]) map[c] = { category: c, count: 0, Positive: 0, Neutral: 0, Negative: 0 };
+        map[c].count += 1;
+        if (["Positive", "Neutral", "Negative"].includes(t.sentiment)) {
+            map[c][t.sentiment] += 1;
+        }
+    }
+
+    return Object.values(map)
+        .map((c) => ({
+            ...c,
+            dominant: ["Positive", "Neutral", "Negative"].sort((a, b) => c[b] - c[a])[0],
+        }))
+        .sort((a, b) => b.count - a.count);
+}
+
 export default function V2Dashboard() {
     const [data, setData] = useState(null);
+    const [dataMeta, setDataMeta] = useState({ source: "unknown", servedAt: null });
     const [tab, setTab] = useState("overview");
     const [selectedSentiments, setSelectedSentiments] = useState([]);
     const [selectedTopics, setSelectedTopics] = useState([]);
@@ -31,15 +155,32 @@ export default function V2Dashboard() {
     const [dateRange, setDateRange] = useState({ from: "", to: "" });
 
     useEffect(() => {
-        fetch("/data.json")
-            .then((r) => r.json())
-            .then(setData);
-    }, []);
+        let cancelled = false;
 
-    const allTopics = useMemo(
-        () => (data ? Object.keys(data.topicCounts || {}).filter((t) => t !== "Other").sort() : []),
-        [data]
-    );
+        const loadData = async () => {
+            try {
+                const apiResp = await fetch("/api/realtime-data", { cache: "no-store" });
+                if (!apiResp.ok) throw new Error(`API error ${apiResp.status}`);
+                const payload = await apiResp.json();
+                if (cancelled) return;
+                setData(payload);
+                setDataMeta(payload?._meta || { source: "api", servedAt: new Date().toISOString() });
+            } catch {
+                const fallbackResp = await fetch("/data.json", { cache: "no-store" });
+                const payload = await fallbackResp.json();
+                if (cancelled) return;
+                setData(payload);
+                setDataMeta({ source: "fallback-json", servedAt: new Date().toISOString() });
+            }
+        };
+
+        loadData();
+        const interval = setInterval(loadData, 60_000);
+        return () => {
+            cancelled = true;
+            clearInterval(interval);
+        };
+    }, []);
 
     // Date-filtered tweets
     const dateFilteredTweets = useMemo(() => {
@@ -75,8 +216,32 @@ export default function V2Dashboard() {
             topicSentiment[t.topic][t.sentiment] = (topicSentiment[t.topic][t.sentiment] || 0) + 1;
         });
 
-        return { ...data, tweets, sentimentCounts, topicSentiment };
+        const timeline = buildTimelineFromTweets(tweets);
+        const riskMatrix = buildRiskMatrixFromTweets(tweets);
+        const topicVelocity = buildTopicVelocityFromTweets(tweets);
+        const categoryBreakdown = buildCategoryBreakdownFromTweets(tweets);
+
+        return {
+            ...data,
+            tweets,
+            sentimentCounts,
+            topicSentiment,
+            timeline,
+            riskMatrix,
+            topicVelocity,
+            categoryBreakdown,
+        };
     }, [data, dateFilteredTweets]);
+
+    const allTopics = useMemo(
+        () => (computedData ? Object.keys(computedData.topicSentiment || {}).filter((t) => t !== "Other").sort() : []),
+        [computedData]
+    );
+
+    const availableQuarters = useMemo(
+        () => (data?.timeline || []).map((t) => t.period),
+        [data]
+    );
 
     if (!data) {
         return (
@@ -86,7 +251,8 @@ export default function V2Dashboard() {
         );
     }
 
-    const { timeline, riskMatrix, topicVelocity, categoryBreakdown, modelPerformance } = data;
+    const { timeline, riskMatrix, topicVelocity, categoryBreakdown } = computedData;
+    const { modelPerformance } = data;
     const sentimentCounts = computedData.sentimentCounts;
     const topicSentiment = computedData.topicSentiment;
     const total = Object.values(sentimentCounts).reduce((a, b) => a + b, 0);
@@ -128,6 +294,9 @@ export default function V2Dashboard() {
                     <span className="subtitle">
                         {total} tweets{hasDateFilter ? " (filtered)" : ""} · {blockerCount} blockers ({total > 0 ? Math.round(blockerCount / total * 100) : 0}%)
                     </span>
+                    <span className="subtitle" style={{ opacity: 0.8 }}>
+                        source: {dataMeta.source}
+                    </span>
                 </div>
                 <div className="v2-filters">
                     <div className="v2-tabs">
@@ -150,7 +319,7 @@ export default function V2Dashboard() {
                             Insights
                         </button>
                     </div>
-                    <V2DateFilter dateRange={dateRange} onDateChange={setDateRange} />
+                    <V2DateFilter dateRange={dateRange} onDateChange={setDateRange} quarters={availableQuarters} />
                     <MultiSelect
                         label="Sentiment"
                         options={["Positive", "Neutral", "Negative"]}
