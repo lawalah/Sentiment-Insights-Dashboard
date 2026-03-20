@@ -4498,16 +4498,27 @@
       "engagement": 1,
       "isBlocker": true,
       "impactScore": 2.2
+    },
+    {
+      "text": "hi \n@MyMaybank\n, just a question. if i have more than RM5k in a Tabung and i want to withdraw full amount in case of emergency, can i do it directly through the MAE app or do i have to contact your si",
+      "sentiment": "Neutral",
+      "topic": "Secure2U Issues",
+      "confidence": 0.5,
+      "category": "security_access",
+      "date": "2026-03-19",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
     }
   ],
   "sentimentCounts": {
     "Negative": 208,
     "Positive": 36,
-    "Neutral": 165
+    "Neutral": 166
   },
   "topicCounts": {
     "App General Issues": 231,
-    "Secure2U Issues": 15,
+    "Secure2U Issues": 16,
     "Migration & Device Change": 38,
     "QR Payments": 16,
     "App Frustration": 12,
@@ -4521,7 +4532,7 @@
       "Neutral": 93
     },
     "Secure2U Issues": {
-      "Neutral": 3,
+      "Neutral": 4,
       "Negative": 11,
       "Positive": 1
     },
@@ -4642,9 +4653,9 @@
     },
     {
       "period": "2026Q1",
-      "total": 9,
+      "total": 10,
       "Positive": 2,
-      "Neutral": 3,
+      "Neutral": 4,
       "Negative": 4
     }
   ],
@@ -4653,7 +4664,7 @@
       "period": "2026Q1",
       "Negative": 4,
       "Positive": 2,
-      "Neutral": 3
+      "Neutral": 4
     },
     "previous": {
       "period": "2025Q4",
@@ -4674,11 +4685,11 @@
     },
     {
       "topic": "Secure2U Issues",
-      "volume": 15,
-      "avgImpact": 1.66,
+      "volume": 16,
+      "avgImpact": 1.62,
       "blockerCount": 5,
-      "blockerPct": 33,
-      "negPct": 73,
+      "blockerPct": 31,
+      "negPct": 69,
       "dominant": "Negative"
     },
     {
@@ -4734,7 +4745,7 @@
       "changePct": -100,
       "currentNeg": 0,
       "previousNeg": 1,
-      "currentTotal": 1,
+      "currentTotal": 2,
       "previousTotal": 2,
       "sparkline": [
         {
@@ -4765,7 +4776,7 @@
         {
           "period": "2026Q1",
           "negative": 0,
-          "total": 1
+          "total": 2
         }
       ]
     },
@@ -5043,9 +5054,9 @@
     },
     {
       "category": "security_access",
-      "count": 47,
+      "count": 48,
       "Positive": 2,
-      "Neutral": 13,
+      "Neutral": 14,
       "Negative": 32,
       "dominant": "Negative"
     },
@@ -5068,10 +5079,10 @@
   ],
   "modelPerformance": {
     "modelName": "cardiffnlp/twitter-roberta-base-sentiment-latest",
-    "totalSamples": 409,
+    "totalSamples": 410,
     "averageConfidence": 0.75,
     "medianConfidence": 0.775,
-    "lowConfidenceCount": 82,
+    "lowConfidenceCount": 83,
     "lowConfidencePct": 20,
     "agreementRate": 61,
     "confidenceDistribution": [
@@ -5081,7 +5092,7 @@
       },
       {
         "range": "0.5-0.6",
-        "count": 73
+        "count": 74
       },
       {
         "range": "0.6-0.7",

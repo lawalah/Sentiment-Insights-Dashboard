@@ -118,6 +118,56 @@ Attach-mode details in [`realtime_pipeline.py`](realtime_pipeline.py):
 - [`--browser-mode attach`](realtime_pipeline.py:314)
 - [`--debugger-address 127.0.0.1:9222`](realtime_pipeline.py:321)
 
+## FYP MVP Always-On on Single VM (recommended)
+
+For stronger uptime than laptop-only runtime, deploy pipeline + dashboard API on one Linux VM and keep local laptop as warm backup.
+
+VM deployment assets:
+- `scripts/vm/run_realtime_pipeline.sh`
+- `scripts/vm/run_dashboard_api.sh`
+- `scripts/vm/sentiment-pipeline.service`
+- `scripts/vm/sentiment-dashboard.service`
+- `scripts/vm/deploy_vm_mvp.sh`
+
+### 1) Prepare VM project directory
+
+```bash
+sudo mkdir -p /opt/sentiment_project
+sudo chown -R $USER:$USER /opt/sentiment_project
+```
+
+### 2) Deploy code to VM
+
+Copy this repository to `/opt/sentiment_project`.
+
+### 3) Install services
+
+```bash
+cd /opt/sentiment_project
+bash scripts/vm/deploy_vm_mvp.sh
+```
+
+### 4) Check service status
+
+```bash
+systemctl status sentiment-pipeline.service --no-pager
+systemctl status sentiment-dashboard.service --no-pager
+tail -f /opt/sentiment_project/logs/realtime_pipeline.out.log
+```
+
+### 5) Local laptop warm backup (manual failover)
+
+If VM is unavailable, run local launch agent fallback:
+
+```bash
+launchctl kickstart -k gui/$(id -u)/com.sentiment.realtime.pipeline
+```
+
+This fallback uses:
+- `scripts/com.sentiment.realtime.pipeline.plist`
+- `dashboard/public/realtime/data_latest.json`
+- `dashboard/public/realtime/pipeline_health.json`
+
 ## Project Goal
 
 The goal is to provide **actionable insights** about MAE app user feedback, helping stakeholders quickly see:

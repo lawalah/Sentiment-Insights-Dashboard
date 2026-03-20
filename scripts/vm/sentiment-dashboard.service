@@ -1,0 +1,22 @@
+[Unit]
+Description=Sentiment Dashboard Next.js API/UI
+After=network-online.target sentiment-pipeline.service
+Wants=network-online.target
+Requires=sentiment-pipeline.service
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/sentiment_project/dashboard
+Environment=PROJECT_DIR=/opt/sentiment_project
+Environment=PORT=3000
+Environment=NODE_ENV=production
+ExecStart=/opt/sentiment_project/scripts/vm/run_dashboard_api.sh
+Restart=always
+RestartSec=5
+StandardOutput=append:/opt/sentiment_project/logs/dashboard.out.log
+StandardError=append:/opt/sentiment_project/logs/dashboard.err.log
+
+[Install]
+WantedBy=multi-user.target

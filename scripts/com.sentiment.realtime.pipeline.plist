@@ -23,6 +23,10 @@
     <string>attach</string>
     <string>--debugger-address</string>
     <string>127.0.0.1:9222</string>
+    <string>--max-age-hours</string>
+    <string>168</string>
+    <string>--max-scrolls</string>
+    <string>12</string>
   </array>
 
   <key>RunAtLoad</key>

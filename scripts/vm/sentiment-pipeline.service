@@ -1,0 +1,22 @@
+[Unit]
+Description=Sentiment Realtime Pipeline
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/sentiment_project
+Environment=PROJECT_DIR=/opt/sentiment_project
+Environment=PYTHON_BIN=/usr/bin/python3
+ExecStart=/opt/sentiment_project/scripts/vm/run_realtime_pipeline.sh
+Restart=always
+RestartSec=10
+StartLimitIntervalSec=300
+StartLimitBurst=5
+StandardOutput=append:/opt/sentiment_project/logs/realtime_pipeline.out.log
+StandardError=append:/opt/sentiment_project/logs/realtime_pipeline.err.log
+
+[Install]
+WantedBy=multi-user.target
