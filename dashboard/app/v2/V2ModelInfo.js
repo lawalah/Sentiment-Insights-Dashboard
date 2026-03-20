@@ -14,9 +14,10 @@ export default function V2ModelInfo({ modelPerformance }) {
         <div style={{
             background: "rgba(0,229,255,0.04)",
             border: "1px solid rgba(0,229,255,0.15)",
-            borderRadius: 10,
-            overflow: "hidden",
+            borderRadius: expanded ? "10px 10px 0 0" : 10,
             marginTop: 4,
+            position: "relative",
+            zIndex: expanded ? 100 : 1,
         }}>
             <button
                 onClick={() => setExpanded(!expanded)}
@@ -32,7 +33,7 @@ export default function V2ModelInfo({ modelPerformance }) {
                     fontFamily: "inherit",
                 }}
             >
-                <span style={{ fontSize: 12 }}>🤖</span>
+                <span style={{ fontSize: 12 }}></span>
                 <span style={{ fontSize: 11, fontWeight: 600, color: "#333" }}>Model Performance</span>
                 <span style={{ fontSize: 10, color: "#888", marginLeft: 4 }}>
                     {averageConfidence * 100}% avg confidence
@@ -41,7 +42,19 @@ export default function V2ModelInfo({ modelPerformance }) {
             </button>
 
             {expanded && (
-                <div style={{ padding: "0 14px 14px", borderTop: "1px solid rgba(0,229,255,0.1)" }}>
+                <div style={{
+                    position: "absolute",
+                    top: "100%",
+                    left: -1,
+                    right: -1,
+                    background: "var(--surface)",
+                    padding: "0 14px 14px",
+                    border: "1px solid rgba(0,229,255,0.3)",
+                    borderTop: "1px solid rgba(0,229,255,0.1)",
+                    borderRadius: "0 0 10px 10px",
+                    boxShadow: "0 12px 24px rgba(0,0,0,0.15)",
+                    zIndex: 100
+                }}>
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 10, marginTop: 10 }}>
                         <div style={{ textAlign: "center" }}>
                             <div style={{ fontSize: 22, fontWeight: 800, color: "#111" }}>{(averageConfidence * 100).toFixed(1)}%</div>

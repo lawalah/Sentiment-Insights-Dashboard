@@ -148,6 +148,7 @@ function buildCategoryBreakdownFromTweets(tweets) {
 export default function V2Dashboard() {
     const [data, setData] = useState(null);
     const [dataMeta, setDataMeta] = useState({ source: "unknown", servedAt: null });
+    const [pipelineHealth, setPipelineHealth] = useState(null);
     const [tab, setTab] = useState("overview");
     const [selectedSentiments, setSelectedSentiments] = useState([]);
     const [selectedTopics, setSelectedTopics] = useState([]);
@@ -174,8 +175,16 @@ export default function V2Dashboard() {
             }
         };
 
+        const loadHealth = async () => {
+            try {
+                const resp = await fetch("/realtime/pipeline_health.json", { cache: "no-store" });
+                if (resp.ok) setPipelineHealth(await resp.json());
+            } catch {}
+        };
+
         loadData();
-        const interval = setInterval(loadData, 60_000);
+        loadHealth();
+        const interval = setInterval(() => { loadData(); loadHealth(); }, 60_000);
         return () => {
             cancelled = true;
             clearInterval(interval);
@@ -389,7 +398,7 @@ export default function V2Dashboard() {
                     </div>
                 </div>
             ) : (
-                <V2Insights data={computedData} />
+                <V2Insights data={computedData} allTweets={data?.tweets} dateRange={dateRange} pipelineHealth={pipelineHealth} />
             )}
         </div>
     );
