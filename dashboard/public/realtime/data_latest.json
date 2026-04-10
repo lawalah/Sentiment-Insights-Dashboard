@@ -4509,30 +4509,140 @@
       "engagement": 0,
       "isBlocker": false,
       "impactScore": 1.0
+    },
+    {
+      "text": "..TO CANCEL THE TRANSACTION ON YOUR WISE APP. AND BOOM I DIDN'T RECEIVE MY MONEY ON THAT APP, NEITHER MY BANK APP NOR WISE APP RECEIVED MY MONEY. I'M USING MAYBANK APP. GIMME BACK MY MONEY OR I'LL SUE",
+      "sentiment": "Negative",
+      "topic": "App General Issues",
+      "confidence": 0.8634,
+      "category": "transaction_issue",
+      "date": "2026-03-21",
+      "engagement": 1,
+      "isBlocker": false,
+      "impactScore": 1.1
+    },
+    {
+      "text": "Hi \n@DominosMY\n , I encountered an issue during checkout using DuitNow QR. The QR generated shows incomplete details (“You have -:- to pay”), causing payment failure in MAE app. Kindly check your QR s",
+      "sentiment": "Negative",
+      "topic": "App General Issues",
+      "confidence": 0.7632,
+      "category": "transaction_issue",
+      "date": "2026-03-23",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "i see the maybank app is serving you well ser haha",
+      "sentiment": "Positive",
+      "topic": "Other",
+      "confidence": 0.9195,
+      "category": "general",
+      "date": "2026-03-23",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "Haha you can still use the traditional way, but my favorite is to reload using the mae app for umobile",
+      "sentiment": "Positive",
+      "topic": "Other",
+      "confidence": 0.8074,
+      "category": "general",
+      "date": "2026-03-24",
+      "engagement": 4,
+      "isBlocker": false,
+      "impactScore": 1.4
+    },
+    {
+      "text": "maybank mae app down sia",
+      "sentiment": "Negative",
+      "topic": "App Frustration",
+      "confidence": 0.4987,
+      "category": "system_stability",
+      "date": "2026-03-28",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "Is the Maybank app down?",
+      "sentiment": "Neutral",
+      "topic": "App Frustration",
+      "confidence": 0.5176,
+      "category": "system_stability",
+      "date": "2026-03-23",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "i hate digi and maybank app both equally the same",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "confidence": 0.9555,
+      "category": "general",
+      "date": "2026-03-29",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
+    },
+    {
+      "text": "maybank mae app down ke weh",
+      "sentiment": "Neutral",
+      "topic": "App Frustration",
+      "confidence": 0.6069,
+      "category": "system_stability",
+      "date": "2026-03-30",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "maybank mae app down ke niii arghh",
+      "sentiment": "Negative",
+      "topic": "App Frustration",
+      "confidence": 0.7228,
+      "category": "system_stability",
+      "date": "2026-03-30",
+      "engagement": 0,
+      "isBlocker": true,
+      "impactScore": 2.0
+    },
+    {
+      "text": "is there an issue with the MAE app? i can login",
+      "sentiment": "Neutral",
+      "topic": "Secure2U Issues",
+      "confidence": 0.7072,
+      "category": "security_access",
+      "date": "2026-03-30",
+      "engagement": 0,
+      "isBlocker": false,
+      "impactScore": 1.0
     }
   ],
   "sentimentCounts": {
-    "Negative": 208,
-    "Positive": 36,
-    "Neutral": 166
+    "Negative": 213,
+    "Positive": 38,
+    "Neutral": 169
   },
   "topicCounts": {
-    "App General Issues": 231,
-    "Secure2U Issues": 16,
+    "App General Issues": 233,
+    "Secure2U Issues": 17,
     "Migration & Device Change": 38,
     "QR Payments": 16,
-    "App Frustration": 12,
+    "App Frustration": 16,
     "Password & Login": 8,
     "Savings (Tabung)": 7
   },
   "topicSentiment": {
     "App General Issues": {
-      "Negative": 121,
+      "Negative": 123,
       "Positive": 17,
       "Neutral": 93
     },
     "Secure2U Issues": {
-      "Neutral": 4,
+      "Neutral": 5,
       "Negative": 11,
       "Positive": 1
     },
@@ -4542,8 +4652,8 @@
       "Negative": 16
     },
     "Other": {
-      "Negative": 35,
-      "Positive": 8,
+      "Negative": 36,
+      "Positive": 10,
       "Neutral": 39
     },
     "QR Payments": {
@@ -4552,8 +4662,8 @@
       "Positive": 2
     },
     "App Frustration": {
-      "Negative": 8,
-      "Neutral": 3,
+      "Negative": 10,
+      "Neutral": 5,
       "Positive": 1
     },
     "Password & Login": {
@@ -4564,6 +4674,276 @@
       "Negative": 3,
       "Neutral": 3,
       "Positive": 1
+    }
+  },
+  "topicQuarter": {
+    "App General Issues": {
+      "2026Q1": {
+        "Negative": 6,
+        "total": 8,
+        "Positive": 2
+      },
+      "2025Q4": {
+        "Negative": 9,
+        "total": 14,
+        "Neutral": 5
+      },
+      "2025Q3": {
+        "Negative": 9,
+        "total": 19,
+        "Neutral": 5,
+        "Positive": 5
+      },
+      "2025Q2": {
+        "Negative": 7,
+        "total": 12,
+        "Neutral": 4,
+        "Positive": 1
+      },
+      "2025Q1": {
+        "Neutral": 3,
+        "total": 5,
+        "Negative": 2
+      },
+      "2024Q4": {
+        "Negative": 8,
+        "total": 17,
+        "Positive": 1,
+        "Neutral": 8
+      },
+      "2024Q3": {
+        "Positive": 1,
+        "total": 16,
+        "Negative": 7,
+        "Neutral": 8
+      },
+      "2024Q2": {
+        "Neutral": 12,
+        "total": 24,
+        "Positive": 1,
+        "Negative": 11
+      },
+      "2024Q1": {
+        "Neutral": 13,
+        "total": 18,
+        "Negative": 5
+      },
+      "2023Q4": {
+        "Neutral": 6,
+        "total": 12,
+        "Negative": 5,
+        "Positive": 1
+      },
+      "2023Q3": {
+        "Negative": 21,
+        "total": 34,
+        "Neutral": 10,
+        "Positive": 3
+      },
+      "2023Q2": {
+        "Negative": 18,
+        "total": 31,
+        "Neutral": 12,
+        "Positive": 1
+      },
+      "2023Q1": {
+        "Negative": 15,
+        "total": 23,
+        "Neutral": 7,
+        "Positive": 1
+      }
+    },
+    "Secure2U Issues": {
+      "2026Q1": {
+        "Neutral": 3,
+        "total": 3
+      },
+      "2025Q4": {
+        "Negative": 1,
+        "total": 2,
+        "Neutral": 1
+      },
+      "2024Q4": {
+        "Negative": 2,
+        "total": 2
+      },
+      "2024Q3": {
+        "Negative": 1,
+        "total": 1
+      },
+      "2023Q4": {
+        "Negative": 2,
+        "total": 2
+      },
+      "2023Q3": {
+        "Negative": 1,
+        "total": 2,
+        "Positive": 1
+      },
+      "2023Q2": {
+        "Negative": 1,
+        "total": 1
+      },
+      "2023Q1": {
+        "Negative": 3,
+        "total": 4,
+        "Neutral": 1
+      }
+    },
+    "Migration & Device Change": {
+      "2026Q1": {
+        "Neutral": 1,
+        "total": 1
+      },
+      "2024Q4": {
+        "Positive": 1,
+        "total": 1
+      },
+      "2024Q3": {
+        "Negative": 1,
+        "total": 2,
+        "Neutral": 1
+      },
+      "2024Q2": {
+        "Positive": 1,
+        "total": 4,
+        "Negative": 1,
+        "Neutral": 2
+      },
+      "2024Q1": {
+        "Neutral": 1,
+        "total": 1
+      },
+      "2023Q3": {
+        "Neutral": 6,
+        "total": 20,
+        "Negative": 11,
+        "Positive": 3
+      },
+      "2023Q2": {
+        "Neutral": 1,
+        "total": 4,
+        "Negative": 2,
+        "Positive": 1
+      },
+      "2023Q1": {
+        "Negative": 1,
+        "total": 4,
+        "Neutral": 3
+      }
+    },
+    "QR Payments": {
+      "2025Q4": {
+        "Negative": 3,
+        "total": 5,
+        "Neutral": 2
+      },
+      "2025Q3": {
+        "Neutral": 1,
+        "total": 1
+      },
+      "2025Q2": {
+        "Neutral": 1,
+        "total": 2,
+        "Positive": 1
+      },
+      "2024Q4": {
+        "Negative": 1,
+        "total": 1
+      },
+      "2024Q3": {
+        "Negative": 2,
+        "total": 2
+      },
+      "2023Q4": {
+        "Negative": 1,
+        "total": 2,
+        "Neutral": 1
+      },
+      "2023Q2": {
+        "Positive": 1,
+        "total": 3,
+        "Neutral": 1,
+        "Negative": 1
+      }
+    },
+    "App Frustration": {
+      "2025Q4": {
+        "Negative": 1,
+        "total": 1
+      },
+      "2024Q2": {
+        "Neutral": 1,
+        "total": 6,
+        "Negative": 4,
+        "Positive": 1
+      },
+      "2023Q4": {
+        "Negative": 1,
+        "total": 2,
+        "Neutral": 1
+      },
+      "2023Q3": {
+        "Negative": 1,
+        "total": 1
+      },
+      "2023Q1": {
+        "Negative": 1,
+        "total": 2,
+        "Neutral": 1
+      },
+      "2026Q1": {
+        "Negative": 2,
+        "total": 4,
+        "Neutral": 2
+      }
+    },
+    "Password & Login": {
+      "2025Q4": {
+        "Negative": 1,
+        "total": 1
+      },
+      "2023Q3": {
+        "Negative": 2,
+        "total": 2
+      },
+      "2023Q2": {
+        "Neutral": 1,
+        "total": 3,
+        "Negative": 2
+      },
+      "2023Q1": {
+        "Neutral": 1,
+        "total": 2,
+        "Negative": 1
+      }
+    },
+    "Savings (Tabung)": {
+      "2025Q2": {
+        "Negative": 1,
+        "total": 1
+      },
+      "2025Q1": {
+        "Negative": 1,
+        "total": 1
+      },
+      "2024Q2": {
+        "Negative": 1,
+        "total": 2,
+        "Neutral": 1
+      },
+      "2023Q4": {
+        "Positive": 1,
+        "total": 1
+      },
+      "2023Q3": {
+        "Neutral": 1,
+        "total": 1
+      },
+      "2023Q2": {
+        "Neutral": 1,
+        "total": 1
+      }
     }
   },
   "timeline": [
@@ -4653,18 +5033,18 @@
     },
     {
       "period": "2026Q1",
-      "total": 10,
-      "Positive": 2,
-      "Neutral": 4,
-      "Negative": 4
+      "total": 20,
+      "Positive": 4,
+      "Neutral": 7,
+      "Negative": 9
     }
   ],
   "quarterComparison": {
     "current": {
       "period": "2026Q1",
-      "Negative": 4,
-      "Positive": 2,
-      "Neutral": 4
+      "Negative": 9,
+      "Positive": 4,
+      "Neutral": 7
     },
     "previous": {
       "period": "2025Q4",
@@ -4676,20 +5056,20 @@
   "riskMatrix": [
     {
       "topic": "App General Issues",
-      "volume": 231,
-      "avgImpact": 1.85,
+      "volume": 233,
+      "avgImpact": 1.84,
       "blockerCount": 52,
-      "blockerPct": 23,
-      "negPct": 52,
+      "blockerPct": 22,
+      "negPct": 53,
       "dominant": "Negative"
     },
     {
       "topic": "Secure2U Issues",
-      "volume": 16,
-      "avgImpact": 1.62,
+      "volume": 17,
+      "avgImpact": 1.58,
       "blockerCount": 5,
-      "blockerPct": 31,
-      "negPct": 69,
+      "blockerPct": 29,
+      "negPct": 65,
       "dominant": "Negative"
     },
     {
@@ -4712,11 +5092,11 @@
     },
     {
       "topic": "App Frustration",
-      "volume": 12,
-      "avgImpact": 1.82,
-      "blockerCount": 6,
-      "blockerPct": 50,
-      "negPct": 67,
+      "volume": 16,
+      "avgImpact": 1.86,
+      "blockerCount": 10,
+      "blockerPct": 62,
+      "negPct": 62,
       "dominant": "Negative"
     },
     {
@@ -4745,7 +5125,7 @@
       "changePct": -100,
       "currentNeg": 0,
       "previousNeg": 1,
-      "currentTotal": 2,
+      "currentTotal": 3,
       "previousTotal": 2,
       "sparkline": [
         {
@@ -4776,7 +5156,7 @@
         {
           "period": "2026Q1",
           "negative": 0,
-          "total": 2
+          "total": 3
         }
       ]
     },
@@ -4823,11 +5203,11 @@
     },
     {
       "topic": "App Frustration",
-      "direction": "improving",
-      "changePct": -100,
-      "currentNeg": 0,
+      "direction": "worsening",
+      "changePct": 100,
+      "currentNeg": 2,
       "previousNeg": 1,
-      "currentTotal": 0,
+      "currentTotal": 4,
       "previousTotal": 1,
       "sparkline": [
         {
@@ -4857,8 +5237,8 @@
         },
         {
           "period": "2026Q1",
-          "negative": 0,
-          "total": 0
+          "negative": 2,
+          "total": 4
         }
       ]
     },
@@ -4906,10 +5286,10 @@
     {
       "topic": "App General Issues",
       "direction": "improving",
-      "changePct": -56,
-      "currentNeg": 4,
+      "changePct": -33,
+      "currentNeg": 6,
       "previousNeg": 9,
-      "currentTotal": 6,
+      "currentTotal": 8,
       "previousTotal": 14,
       "sparkline": [
         {
@@ -4939,8 +5319,8 @@
         },
         {
           "period": "2026Q1",
-          "negative": 4,
-          "total": 6
+          "negative": 6,
+          "total": 8
         }
       ]
     },
@@ -5030,18 +5410,18 @@
   "categoryBreakdown": [
     {
       "category": "general",
-      "count": 144,
-      "Positive": 14,
+      "count": 147,
+      "Positive": 16,
       "Neutral": 66,
-      "Negative": 64,
+      "Negative": 65,
       "dominant": "Neutral"
     },
     {
       "category": "transaction_issue",
-      "count": 102,
+      "count": 104,
       "Positive": 7,
       "Neutral": 37,
-      "Negative": 58,
+      "Negative": 60,
       "dominant": "Negative"
     },
     {
@@ -5054,18 +5434,18 @@
     },
     {
       "category": "security_access",
-      "count": 48,
+      "count": 49,
       "Positive": 2,
-      "Neutral": 14,
+      "Neutral": 15,
       "Negative": 32,
       "dominant": "Negative"
     },
     {
       "category": "system_stability",
-      "count": 41,
+      "count": 45,
       "Positive": 1,
-      "Neutral": 15,
-      "Negative": 25,
+      "Neutral": 17,
+      "Negative": 27,
       "dominant": "Negative"
     },
     {
@@ -5079,36 +5459,36 @@
   ],
   "modelPerformance": {
     "modelName": "cardiffnlp/twitter-roberta-base-sentiment-latest",
-    "totalSamples": 410,
-    "averageConfidence": 0.75,
-    "medianConfidence": 0.775,
-    "lowConfidenceCount": 83,
+    "totalSamples": 420,
+    "averageConfidence": 0.749,
+    "medianConfidence": 0.773,
+    "lowConfidenceCount": 85,
     "lowConfidencePct": 20,
-    "agreementRate": 61,
+    "agreementRate": 62,
     "confidenceDistribution": [
       {
         "range": "<0.5",
-        "count": 9
+        "count": 10
       },
       {
         "range": "0.5-0.6",
-        "count": 74
+        "count": 75
       },
       {
         "range": "0.6-0.7",
-        "count": 69
+        "count": 70
       },
       {
         "range": "0.7-0.8",
-        "count": 76
+        "count": 79
       },
       {
         "range": "0.8-0.9",
-        "count": 96
+        "count": 98
       },
       {
         "range": "≥0.9",
-        "count": 86
+        "count": 88
       }
     ]
   }

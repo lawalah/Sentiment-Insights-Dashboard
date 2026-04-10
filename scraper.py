@@ -241,8 +241,8 @@ def is_foreign_text(text):
 
 def is_spam(user, text):
     text_lower = text.lower()
-    # Minimum length filter: tweets under 25 chars have no analyzable sentiment
-    if len(text.strip()) < 25: return True
+    # Minimum length filter: tweets under 20 chars have no analyzable sentiment
+    if len(text.strip()) < 20: return True
     if is_foreign_text(text): return True
     if user in BLOCKED_USERS: return True
     for k in PROMO_KEYWORDS:

@@ -123,7 +123,10 @@ function buildTopicVelocityFromTweets(tweets) {
         };
     });
 
-    return out.sort((a, b) => Math.abs(b.changePct) - Math.abs(a.changePct));
+    return { 
+        topicVelocityList: out.sort((a, b) => Math.abs(b.changePct) - Math.abs(a.changePct)),
+        topicQuarter 
+    };
 }
 
 function buildCategoryBreakdownFromTweets(tweets) {
@@ -227,7 +230,7 @@ export default function V2Dashboard() {
 
         const timeline = buildTimelineFromTweets(tweets);
         const riskMatrix = buildRiskMatrixFromTweets(tweets);
-        const topicVelocity = buildTopicVelocityFromTweets(tweets);
+        const { topicVelocityList, topicQuarter } = buildTopicVelocityFromTweets(tweets);
         const categoryBreakdown = buildCategoryBreakdownFromTweets(tweets);
 
         return {
@@ -237,7 +240,8 @@ export default function V2Dashboard() {
             topicSentiment,
             timeline,
             riskMatrix,
-            topicVelocity,
+            topicVelocity: topicVelocityList,
+            topicQuarter,
             categoryBreakdown,
         };
     }, [data, dateFilteredTweets]);
@@ -260,7 +264,7 @@ export default function V2Dashboard() {
         );
     }
 
-    const { timeline, riskMatrix, topicVelocity, categoryBreakdown } = computedData;
+    const { timeline, riskMatrix, topicVelocity, topicQuarter, categoryBreakdown } = computedData;
     const { modelPerformance } = data;
     const sentimentCounts = computedData.sentimentCounts;
     const topicSentiment = computedData.topicSentiment;
@@ -393,7 +397,7 @@ export default function V2Dashboard() {
                         <V2RiskMatrix riskMatrix={riskMatrix} onToggleTopic={toggleTopic} />
                     </div>
                     <div className="v2-bot-row">
-                        <V2TopicVelocity topicVelocity={topicVelocity} />
+                        <V2TopicVelocity topicVelocity={topicVelocity} topicQuarter={topicQuarter} timeline={timeline} />
                         <V2CategoryBreakdown categoryBreakdown={categoryBreakdown} />
                     </div>
                 </div>

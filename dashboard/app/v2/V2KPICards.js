@@ -28,6 +28,16 @@ function Sparkline({ data, dataKey, color }) {
 }
 
 export default function V2KPICards({ total, positive, negative, neutral, brandHealth, filtered, hasFilters, timeline, blockerCount, blockerPct }) {
+    const formatPeriod = (p) => {
+        if (!p) return "";
+        const [y, q] = p.split("Q");
+        return `Q${q} ${y}`;
+    };
+
+    const dateLabel = timeline && timeline.length > 0
+        ? `${formatPeriod(timeline[0].period)} — ${formatPeriod(timeline[timeline.length - 1].period)}`
+        : "All Time";
+
     return (
         <div className="v2-kpi-grid" style={{ gridTemplateColumns: "repeat(6, 1fr)" }}>
             <div className="v2-kpi">
@@ -37,7 +47,7 @@ export default function V2KPICards({ total, positive, negative, neutral, brandHe
                 </div>
                 <div className="v2-kpi-value">{hasFilters ? filtered : total}</div>
                 <Sparkline data={timeline} dataKey="total" color="#39FF14" />
-                <div className="v2-kpi-sub">{hasFilters ? `of ${total} total` : "Jan 2023 — Feb 2026"}</div>
+                <div className="v2-kpi-sub">{hasFilters ? `of ${total} total` : dateLabel}</div>
             </div>
 
             <div className="v2-kpi green">

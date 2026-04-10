@@ -65,9 +65,14 @@ def generate(csv_path=CSV_PATH, output_path=OUTPUT_PATH):
     import csv
 
     rows = []
+    seen_texts = set()
     with open(csv_path, encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
+            text_fp = (row.get("Text") or "").strip().lower()
+            if text_fp in seen_texts:
+                continue
+            seen_texts.add(text_fp)
             rows.append(row)
 
     # ── Process each tweet ────────────────────────────────────────────
@@ -282,6 +287,7 @@ def generate(csv_path=CSV_PATH, output_path=OUTPUT_PATH):
         "sentimentCounts": dict(sentiment_counts),
         "topicCounts": dict(topic_counts),
         "topicSentiment": {k: dict(v) for k, v in topic_sentiment.items()},
+        "topicQuarter": {t: {q: dict(counts) for q, counts in q_dict.items()} for t, q_dict in topic_quarter.items()},
         "timeline": timeline,
         "quarterComparison": quarter_comparison,
         "riskMatrix": risk_matrix,
